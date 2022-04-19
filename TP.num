@@ -1,0 +1,4514 @@
+#VRML V2.0 utf8 Application: IdefX V5.0
+Group { children [
+Transform {
+	translation 445 4 0.0
+	scale		0.01 0.01 0.01
+	rotation	1 0 0 3.1416
+	children
+[
+Transform {translation   0.000000 11511.585786   0.000000
+scale   5.575286  -5.575286   1.000000
+rotation     0.0000     0.0000     0.0000     3.1416
+
+	children
+[
+DEF espace45 ESPACE { Nom "CalibPA-0" }
+DEF GEOgroupe1 GROUPE {
+	Groupe    "Calibrage"
+	Espace    "CalibPA-0"
+}
+USE GEOgroupe1
+] } ] } ] }
+Group { children [
+Transform {
+	translation 455 4 0.0
+	scale		0.01 0.01 0.01
+	rotation	1 0 0 3.1416
+	children
+[
+Transform {translation   0.000000 11511.585786   0.000000
+scale   5.575286  -5.575286   1.000000
+rotation     0.0000     0.0000     0.0000     3.1416
+
+	children
+[
+DEF espace46 ESPACE { Nom "PA-0" }
+DEF GEOgroupe2 GROUPE {
+	Groupe    "Structure"
+	Espace    "PA-0"
+}
+DEF GEOgroupe3 GROUPE {
+	Groupe    "Bassin"
+	Espace    "PA-0"
+}
+DEF GEOaxlink1 AXLINK {
+	Nom       "Cotyles"
+	Label     "Bassin"
+	Couleur   [ 1 0 1 ]
+	Espace    "PA-0"
+	EspaceSupport    Prims3D
+	ArboSupport      \MI\Bassin
+	ProjSupport      Face
+}
+USE GEOaxlink1
+DEF GEOaxlink2 AXLINK {
+	Nom       "Milieu_plateau_sacrum"
+	Label     "SacroIliaqueInf"
+	Couleur   [ 1 0 1 ]
+	Espace    "PA-0"
+	EspaceSupport    Prims3D
+	ArboSupport      \MI\Bassin\SacroIliaqueInf
+	ProjSupport      Face
+}
+USE GEOaxlink2
+USE GEOgroupe3
+DEF GEOgroupe4 GROUPE {
+	Groupe    "Malleoles"
+	Espace    "PA-0"
+}
+DEF GEOaxlink3 AXLINK {
+	Nom       "Malleoles_G"
+	Label     "Mal_G"
+	Etat      0
+	Couleur   [ 1 0 1 ]
+	Espace    "PA-0"
+	EspaceSupport    Prims3D
+	ArboSupport      \MI\Mal_G
+	ProjSupport      Face
+}
+USE GEOaxlink3
+DEF GEOaxlink4 AXLINK {
+	Nom       "Malleoles_D"
+	Label     "Mal_D"
+	Etat      0
+	Couleur   [ 1 0 1 ]
+	Espace    "PA-0"
+	EspaceSupport    Prims3D
+	ArboSupport      \MI\Mal_D
+	ProjSupport      Face
+}
+USE GEOaxlink4
+USE GEOgroupe4
+DEF GEOgroupe5 GROUPE {
+	Groupe    "Epaule"
+	Espace    "PA-0"
+}
+DEF GEOaxlink5 AXLINK {
+	Nom       "Scapula_G"
+	Label     "Scap_G"
+	Etat      0
+	Couleur   [ 1 0 1 ]
+	Espace    "PA-0"
+	EspaceSupport    Prims3D
+	ArboSupport      \Epaule\Scap_G
+	ProjSupport      Face
+}
+USE GEOaxlink5
+DEF GEOaxlink6 AXLINK {
+	Nom       "Scapula_D"
+	Label     "Scap_D"
+	Etat      0
+	Couleur   [ 1 0 1 ]
+	Espace    "PA-0"
+	EspaceSupport    Prims3D
+	ArboSupport      \Epaule\Scap_D
+	ProjSupport      Face
+}
+USE GEOaxlink6
+DEF GEOaxlink7 AXLINK {
+	Nom       "Humerus_G"
+	Label     "Hum_G"
+	Etat      0
+	Couleur   [ 1 0 1 ]
+	Espace    "PA-0"
+	EspaceSupport    Prims3D
+	ArboSupport      \Epaule\Hum_G
+	ProjSupport      Face
+}
+USE GEOaxlink7
+DEF GEOaxlink8 AXLINK {
+	Nom       "Humerus_D"
+	Label     "Hum_D"
+	Etat      0
+	Couleur   [ 1 0 1 ]
+	Espace    "PA-0"
+	EspaceSupport    Prims3D
+	ArboSupport      \Epaule\Hum_D
+	ProjSupport      Face
+}
+USE GEOaxlink8
+USE GEOgroupe5
+DEF GEOaxlink9 AXLINK {
+	Nom       "Taille"
+	Couleur   [ 1 0 1 ]
+	Espace    "PA-0"
+	EspaceSupport    Prims3D
+	ArboSupport      \Taille
+	ProjSupport      Face
+}
+USE GEOaxlink9
+DEF GEOgroupe6 GROUPE {
+	Groupe    "Coude"
+	Espace    "PA-0"
+}
+DEF GEOaxlink10 AXLINK {
+	Nom       "Coude_G"
+	Etat      0
+	Couleur   [ 1 0 1 ]
+	Espace    "PA-0"
+	EspaceSupport    Prims3D
+	ArboSupport      \Coude\Coude_G
+	ProjSupport      Face
+}
+USE GEOaxlink10
+DEF GEOaxlink11 AXLINK {
+	Nom       "Coude_D"
+	Etat      0
+	Couleur   [ 1 0 1 ]
+	Espace    "PA-0"
+	EspaceSupport    Prims3D
+	ArboSupport      \Coude\Coude_D
+	ProjSupport      Face
+}
+USE GEOaxlink11
+USE GEOgroupe6
+DEF GEOgroupe7 GROUPE {
+	Groupe    "MI"
+	Espace    "PA-0"
+}
+USE GEOgroupe7
+DEF GEOgroupe8 GROUPE {
+	Groupe    "FemurD"
+	Espace    "PA-0"
+}
+USE GEOgroupe8
+DEF GEOgroupe9 GROUPE {
+	Groupe    "FemurG"
+	Espace    "PA-0"
+}
+USE GEOgroupe9
+DEF GEOgroupe10 GROUPE {
+	Groupe    "TibiaD"
+	Espace    "PA-0"
+}
+USE GEOgroupe10
+DEF GEOgroupe11 GROUPE {
+	Groupe    "TibiaG"
+	Espace    "PA-0"
+}
+USE GEOgroupe11
+DEF GEOgroupe12 GROUPE {
+	Groupe    "RotuleD"
+	Espace    "PA-0"
+}
+USE GEOgroupe12
+DEF GEOgroupe13 GROUPE {
+	Groupe    "RotuleG"
+	Espace    "PA-0"
+}
+USE GEOgroupe13
+USE GEOgroupe2
+DEF GEOgroupe14 GROUPE {
+	Groupe    "SemiAuto"
+	Espace    "PA-0"
+}
+DEF GEOgroupe15 GROUPE {
+	Groupe    "Colonne"
+	Espace    "PA-0"
+}
+USE GEOgroupe15
+DEF GEOgroupe16 GROUPE {
+	Groupe    "PointsDetectes"
+	Espace    "PA-0"
+}
+DEF GEOgroupe17 GROUPE {
+	Groupe    "Vertebre_C1"
+	Espace    "PA-0"
+}
+USE GEOgroupe17
+DEF GEOgroupe18 GROUPE {
+	Groupe    "Vertebre_C2"
+	Espace    "PA-0"
+}
+USE GEOgroupe18
+DEF GEOgroupe19 GROUPE {
+	Groupe    "Vertebre_C3"
+	Espace    "PA-0"
+}
+USE GEOgroupe19
+DEF GEOgroupe20 GROUPE {
+	Groupe    "Vertebre_C4"
+	Espace    "PA-0"
+}
+USE GEOgroupe20
+DEF GEOgroupe21 GROUPE {
+	Groupe    "Vertebre_C5"
+	Espace    "PA-0"
+}
+USE GEOgroupe21
+DEF GEOgroupe22 GROUPE {
+	Groupe    "Vertebre_C6"
+	Espace    "PA-0"
+}
+USE GEOgroupe22
+DEF GEOgroupe23 GROUPE {
+	Groupe    "Vertebre_C7"
+	Espace    "PA-0"
+}
+USE GEOgroupe23
+DEF GEOgroupe24 GROUPE {
+	Groupe    "Vertebre_T1"
+	Espace    "PA-0"
+}
+USE GEOgroupe24
+DEF GEOgroupe25 GROUPE {
+	Groupe    "Vertebre_T2"
+	Espace    "PA-0"
+}
+USE GEOgroupe25
+DEF GEOgroupe26 GROUPE {
+	Groupe    "Vertebre_T3"
+	Espace    "PA-0"
+}
+USE GEOgroupe26
+DEF GEOgroupe27 GROUPE {
+	Groupe    "Vertebre_T4"
+	Espace    "PA-0"
+}
+USE GEOgroupe27
+DEF GEOgroupe28 GROUPE {
+	Groupe    "Vertebre_T5"
+	Espace    "PA-0"
+}
+USE GEOgroupe28
+DEF GEOgroupe29 GROUPE {
+	Groupe    "Vertebre_T6"
+	Espace    "PA-0"
+}
+USE GEOgroupe29
+DEF GEOgroupe30 GROUPE {
+	Groupe    "Vertebre_T7"
+	Espace    "PA-0"
+}
+USE GEOgroupe30
+DEF GEOgroupe31 GROUPE {
+	Groupe    "Vertebre_T8"
+	Espace    "PA-0"
+}
+USE GEOgroupe31
+DEF GEOgroupe32 GROUPE {
+	Groupe    "Vertebre_T9"
+	Espace    "PA-0"
+}
+USE GEOgroupe32
+DEF GEOgroupe33 GROUPE {
+	Groupe    "Vertebre_T10"
+	Espace    "PA-0"
+}
+USE GEOgroupe33
+DEF GEOgroupe34 GROUPE {
+	Groupe    "Vertebre_T11"
+	Espace    "PA-0"
+}
+USE GEOgroupe34
+DEF GEOgroupe35 GROUPE {
+	Groupe    "Vertebre_T12"
+	Espace    "PA-0"
+}
+USE GEOgroupe35
+DEF GEOgroupe36 GROUPE {
+	Groupe    "Vertebre_L1"
+	Espace    "PA-0"
+}
+USE GEOgroupe36
+DEF GEOgroupe37 GROUPE {
+	Groupe    "Vertebre_L2"
+	Espace    "PA-0"
+}
+USE GEOgroupe37
+DEF GEOgroupe38 GROUPE {
+	Groupe    "Vertebre_L3"
+	Espace    "PA-0"
+}
+USE GEOgroupe38
+DEF GEOgroupe39 GROUPE {
+	Groupe    "Vertebre_L4"
+	Espace    "PA-0"
+}
+USE GEOgroupe39
+DEF GEOgroupe40 GROUPE {
+	Groupe    "Vertebre_L5"
+	Espace    "PA-0"
+}
+USE GEOgroupe40
+USE GEOgroupe16
+DEF GEOaxsplinedouble1 AXSPLINEDOUBLE {
+	Nom       "Spline"
+	Espace    "PA-0"
+	Points	[
+		171.184045 1559.733521   0.000000	0	2	3880 ,
+		164.870473 1521.529257   0.000000	0	2	3880 ,
+		161.668889 1486.538858   0.000000	0	2	3880 ,
+		164.153015 1432.314047   0.000000	0	2	3880 ,
+		166.161881 1398.432377   0.000000	0	2	3880
+
+	]
+	Ders	[
+		   -6.9422   -87.3905     0.0000     0.0000	0 ,
+		   -3.8342  -171.5542     0.0000     0.0000	4
+
+	]
+	Modes	[
+		AfficherCtrls	1 ,
+		ModeGlisse	1 ,
+		ModeMultiPepite	0 ,
+		ModeGauss	0 ,
+
+	]
+	Plateaux	[
+		194.214254 1557.904018   0.000000	148.153836 1561.563023   0.000000	0	87.6658 ,
+		194.250126 1397.804607   0.000000	138.073635 1399.060148   0.000000	0	171.597
+
+	]
+	LargeursGuide	[
+		0 0 23.1028
+		46 2 23.7015
+		79 3 27.6081
+		100 4 28.0953
+
+	]
+}
+USE GEOaxsplinedouble1
+USE GEOgroupe14
+] } ] } ] }
+Group { children [
+Transform {
+	translation 465 4 0.0
+	scale		0.01 0.01 0.01
+	rotation	1 0 0 3.1416
+	children
+[
+Transform {translation   0.000000 11511.585786   0.000000
+scale   5.575286  -5.575286   1.000000
+rotation     0.0000     0.0000     0.0000     3.1416
+
+	children
+[
+DEF espace47 ESPACE { Nom "CalibLAT" }
+DEF GEOgroupe41 GROUPE {
+	Groupe    "Calibrage"
+	Espace    "CalibLAT"
+}
+USE GEOgroupe41
+] } ] } ] }
+Group { children [
+Transform {
+	translation 475 4 0.0
+	scale		0.01 0.01 0.01
+	rotation	1 0 0 3.1416
+	children
+[
+Transform {translation   0.000000 11511.585786   0.000000
+scale   5.575286  -5.575286   1.000000
+rotation     0.0000     0.0000     0.0000     3.1416
+
+	children
+[
+DEF espace48 ESPACE { Nom "LAT" }
+DEF GEOgroupe42 GROUPE {
+	Groupe    "Structure"
+	Espace    "LAT"
+}
+DEF GEOgroupe43 GROUPE {
+	Groupe    "Bassin"
+	Espace    "LAT"
+}
+DEF GEOaxcontour1 AXCONTOUR {
+	Nom       "Plateau_Sacrum"
+	Espace    "LAT"
+	Ligne     1
+	Ferme     1
+	Epaisseur 1
+	Transparent 0
+	Points    [
+			120.915868 1400.597145   0.000000 ,
+			122.359860 1400.325679   0.000000 ,
+			123.806950 1400.019322   0.000000 ,
+			125.245212 1399.637795   0.000000 ,
+			126.644997 1399.140868   0.000000 ,
+			127.973220 1398.506719   0.000000 ,
+			129.213708 1397.748506   0.000000 ,
+			130.379658 1396.915063   0.000000 ,
+			131.509304 1396.071568   0.000000 ,
+			132.646086 1395.268761   0.000000 ,
+			133.817005 1394.522758   0.000000 ,
+			135.019562 1393.812939   0.000000 ,
+			136.224351 1393.101507   0.000000 ,
+			137.389686 1392.361786   0.000000 ,
+			138.480640 1391.599060   0.000000 ,
+			139.484639 1390.855555   0.000000 ,
+			140.413261 1390.191668   0.000000 ,
+			141.290243 1389.653621   0.000000 ,
+			142.129115 1389.241438   0.000000 ,
+			142.917768 1388.899582   0.000000 ,
+			143.623774 1388.541016   0.000000 ,
+			144.219858 1388.093000   0.000000 ,
+			144.713047 1387.537994   0.000000 ,
+			145.151801 1386.918799   0.000000 ,
+			145.605005 1386.308132   0.000000 ,
+			146.127589 1385.765683   0.000000 ,
+			146.735503 1385.309117   0.000000 ,
+			147.406458 1384.915117   0.000000 ,
+			148.100929 1384.540983   0.000000 ,
+			148.785539 1384.148172   0.000000 ,
+			149.445427 1383.717020   0.000000 ,
+			150.082257 1383.247944   0.000000 ,
+			150.706567 1382.756423   0.000000
+
+			]
+	Index     [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
+				26 27 28 29 30 31 32  0 ]
+}
+USE GEOaxcontour1
+DEF GEOaxlink12 AXLINK {
+	Nom       "Cotyles"
+	Label     "Bassin"
+	Couleur   [ 1 0 1 ]
+	Espace    "LAT"
+	EspaceSupport    Prims3D
+	ArboSupport      \MI\Bassin
+	ProjSupport      Profil
+}
+USE GEOaxlink12
+USE GEOgroupe43
+DEF GEOgroupe44 GROUPE {
+	Groupe    "Malleoles"
+	Espace    "LAT"
+}
+DEF GEOaxlink13 AXLINK {
+	Nom       "Malleoles_G"
+	Label     "Mal_G"
+	Etat      0
+	Couleur   [ 1 0 1 ]
+	Espace    "LAT"
+	EspaceSupport    Prims3D
+	ArboSupport      \MI\Mal_G
+	ProjSupport      Profil
+}
+USE GEOaxlink13
+DEF GEOaxlink14 AXLINK {
+	Nom       "Malleoles_D"
+	Label     "Mal_D"
+	Etat      0
+	Couleur   [ 1 0 1 ]
+	Espace    "LAT"
+	EspaceSupport    Prims3D
+	ArboSupport      \MI\Mal_D
+	ProjSupport      Profil
+}
+USE GEOaxlink14
+USE GEOgroupe44
+DEF GEOgroupe45 GROUPE {
+	Groupe    "Epaule"
+	Espace    "LAT"
+}
+DEF GEOaxlink15 AXLINK {
+	Nom       "Scapula_G"
+	Label     "Scap_G"
+	Etat      0
+	Couleur   [ 1 0 1 ]
+	Espace    "LAT"
+	EspaceSupport    Prims3D
+	ArboSupport      \Epaule\Scap_G
+	ProjSupport      Profil
+}
+USE GEOaxlink15
+DEF GEOaxlink16 AXLINK {
+	Nom       "Scapula_D"
+	Label     "Scap_D"
+	Etat      0
+	Couleur   [ 1 0 1 ]
+	Espace    "LAT"
+	EspaceSupport    Prims3D
+	ArboSupport      \Epaule\Scap_D
+	ProjSupport      Profil
+}
+USE GEOaxlink16
+DEF GEOaxlink17 AXLINK {
+	Nom       "Humerus_G"
+	Label     "Hum_G"
+	Etat      0
+	Couleur   [ 1 0 1 ]
+	Espace    "LAT"
+	EspaceSupport    Prims3D
+	ArboSupport      \Epaule\Hum_G
+	ProjSupport      Profil
+}
+USE GEOaxlink17
+DEF GEOaxlink18 AXLINK {
+	Nom       "Humerus_D"
+	Label     "Hum_D"
+	Etat      0
+	Couleur   [ 1 0 1 ]
+	Espace    "LAT"
+	EspaceSupport    Prims3D
+	ArboSupport      \Epaule\Hum_D
+	ProjSupport      Profil
+}
+USE GEOaxlink18
+USE GEOgroupe45
+DEF GEOaxlink19 AXLINK {
+	Nom       "Taille"
+	Couleur   [ 1 0 1 ]
+	Espace    "LAT"
+	EspaceSupport    Prims3D
+	ArboSupport      \Taille
+	ProjSupport      Profil
+}
+USE GEOaxlink19
+DEF GEOgroupe46 GROUPE {
+	Groupe    "Coude"
+	Espace    "LAT"
+}
+DEF GEOaxlink20 AXLINK {
+	Nom       "Coude_G"
+	Etat      0
+	Couleur   [ 1 0 1 ]
+	Espace    "LAT"
+	EspaceSupport    Prims3D
+	ArboSupport      \Coude\Coude_G
+	ProjSupport      Profil
+}
+USE GEOaxlink20
+DEF GEOaxlink21 AXLINK {
+	Nom       "Coude_D"
+	Etat      0
+	Couleur   [ 1 0 1 ]
+	Espace    "LAT"
+	EspaceSupport    Prims3D
+	ArboSupport      \Coude\Coude_D
+	ProjSupport      Profil
+}
+USE GEOaxlink21
+USE GEOgroupe46
+DEF GEOgroupe47 GROUPE {
+	Groupe    "MI"
+	Espace    "LAT"
+}
+USE GEOgroupe47
+DEF GEOgroupe48 GROUPE {
+	Groupe    "FemurD"
+	Espace    "LAT"
+}
+USE GEOgroupe48
+DEF GEOgroupe49 GROUPE {
+	Groupe    "FemurG"
+	Espace    "LAT"
+}
+USE GEOgroupe49
+DEF GEOgroupe50 GROUPE {
+	Groupe    "TibiaD"
+	Espace    "LAT"
+}
+USE GEOgroupe50
+DEF GEOgroupe51 GROUPE {
+	Groupe    "TibiaG"
+	Espace    "LAT"
+}
+USE GEOgroupe51
+DEF GEOgroupe52 GROUPE {
+	Groupe    "RotuleD"
+	Espace    "LAT"
+}
+USE GEOgroupe52
+DEF GEOgroupe53 GROUPE {
+	Groupe    "RotuleG"
+	Espace    "LAT"
+}
+USE GEOgroupe53
+USE GEOgroupe42
+DEF GEOgroupe54 GROUPE {
+	Groupe    "SemiAuto"
+	Espace    "LAT"
+}
+DEF GEOgroupe55 GROUPE {
+	Groupe    "Colonne"
+	Espace    "LAT"
+}
+USE GEOgroupe55
+DEF GEOgroupe56 GROUPE {
+	Groupe    "PointsDetectes"
+	Espace    "LAT"
+}
+DEF GEOgroupe57 GROUPE {
+	Groupe    "Vertebre_C1"
+	Espace    "LAT"
+}
+USE GEOgroupe57
+DEF GEOgroupe58 GROUPE {
+	Groupe    "Vertebre_C2"
+	Espace    "LAT"
+}
+USE GEOgroupe58
+DEF GEOgroupe59 GROUPE {
+	Groupe    "Vertebre_C3"
+	Espace    "LAT"
+}
+USE GEOgroupe59
+DEF GEOgroupe60 GROUPE {
+	Groupe    "Vertebre_C4"
+	Espace    "LAT"
+}
+USE GEOgroupe60
+DEF GEOgroupe61 GROUPE {
+	Groupe    "Vertebre_C5"
+	Espace    "LAT"
+}
+USE GEOgroupe61
+DEF GEOgroupe62 GROUPE {
+	Groupe    "Vertebre_C6"
+	Espace    "LAT"
+}
+USE GEOgroupe62
+DEF GEOgroupe63 GROUPE {
+	Groupe    "Vertebre_C7"
+	Espace    "LAT"
+}
+USE GEOgroupe63
+DEF GEOgroupe64 GROUPE {
+	Groupe    "Vertebre_T1"
+	Espace    "LAT"
+}
+USE GEOgroupe64
+DEF GEOgroupe65 GROUPE {
+	Groupe    "Vertebre_T2"
+	Espace    "LAT"
+}
+USE GEOgroupe65
+DEF GEOgroupe66 GROUPE {
+	Groupe    "Vertebre_T3"
+	Espace    "LAT"
+}
+USE GEOgroupe66
+DEF GEOgroupe67 GROUPE {
+	Groupe    "Vertebre_T4"
+	Espace    "LAT"
+}
+USE GEOgroupe67
+DEF GEOgroupe68 GROUPE {
+	Groupe    "Vertebre_T5"
+	Espace    "LAT"
+}
+USE GEOgroupe68
+DEF GEOgroupe69 GROUPE {
+	Groupe    "Vertebre_T6"
+	Espace    "LAT"
+}
+USE GEOgroupe69
+DEF GEOgroupe70 GROUPE {
+	Groupe    "Vertebre_T7"
+	Espace    "LAT"
+}
+USE GEOgroupe70
+DEF GEOgroupe71 GROUPE {
+	Groupe    "Vertebre_T8"
+	Espace    "LAT"
+}
+USE GEOgroupe71
+DEF GEOgroupe72 GROUPE {
+	Groupe    "Vertebre_T9"
+	Espace    "LAT"
+}
+USE GEOgroupe72
+DEF GEOgroupe73 GROUPE {
+	Groupe    "Vertebre_T10"
+	Espace    "LAT"
+}
+USE GEOgroupe73
+DEF GEOgroupe74 GROUPE {
+	Groupe    "Vertebre_T11"
+	Espace    "LAT"
+}
+USE GEOgroupe74
+DEF GEOgroupe75 GROUPE {
+	Groupe    "Vertebre_T12"
+	Espace    "LAT"
+}
+USE GEOgroupe75
+DEF GEOgroupe76 GROUPE {
+	Groupe    "Vertebre_L1"
+	Espace    "LAT"
+}
+USE GEOgroupe76
+DEF GEOgroupe77 GROUPE {
+	Groupe    "Vertebre_L2"
+	Espace    "LAT"
+}
+USE GEOgroupe77
+DEF GEOgroupe78 GROUPE {
+	Groupe    "Vertebre_L3"
+	Espace    "LAT"
+}
+USE GEOgroupe78
+DEF GEOgroupe79 GROUPE {
+	Groupe    "Vertebre_L4"
+	Espace    "LAT"
+}
+USE GEOgroupe79
+DEF GEOgroupe80 GROUPE {
+	Groupe    "Vertebre_L5"
+	Espace    "LAT"
+}
+USE GEOgroupe80
+USE GEOgroupe56
+DEF GEOaxsplinedouble2 AXSPLINEDOUBLE {
+	Nom       "Spline"
+	Espace    "LAT"
+	Points	[
+		117.791427 1559.733521   0.000000	0	2	3880 ,
+		132.427448 1517.654964   0.000000	0	2	3880 ,
+		149.285378 1448.828107   0.000000	0	2	3880 ,
+		138.220873 1398.432377   0.000000	0	2	3880
+
+	]
+	Ders	[
+		   39.9317  -159.7270     0.0000     0.0000	0 ,
+		  -86.1099  -162.6521     0.0000     0.0000	3
+
+	]
+	Modes	[
+		AfficherCtrls	1 ,
+		ModeGlisse	1 ,
+		ModeMultiPepite	0 ,
+		ModeGauss	0 ,
+
+	]
+	Plateaux	[
+		103.155407 1556.074516   0.000000	132.427448 1563.392526   0.000000	0	164.643 ,
+		153.771644 1390.199616   0.000000	122.670101 1406.665139   0.000000	0	184.04
+
+	]
+	LargeursGuide	[
+		0 0 15.0865
+		27 1 17.792
+		68 2 16.8733
+		100 3 17.5956
+
+	]
+}
+USE GEOaxsplinedouble2
+USE GEOgroupe54
+] } ] } ] }
+Group { children [
+Transform {
+	translation 485 4 0.0
+	scale		0.01 0.01 0.01
+	rotation	1 0 0 3.1416
+	children
+[
+DEF espace49 ESPACE { Nom "Prims3D" }
+DEF GEOgroupe81 GROUPE {
+	Groupe    "MI"
+	Espace    "Prims3D"
+}
+DEF GEOtemplate3d1 TEMPLATE3D {
+	Groupe    "Bassin"
+	Espace    "Prims3D"
+}
+	Position  [
+		1.0000000000   0.0000000000   0.0000000000   4.0000000000    
+0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+0.0000000000   0.0000000000   1.0000000000   1393.3922769770 
+0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+
+	          ]
+DEF GEOaxsphere1 AXSPHERE {
+	Nom       "Cotyle_G"
+	Couleur   [ 0.784314 0 0 ]
+	Espace    "Prims3D"
+	Centre     -5.147838  78.394340 -127.383601
+	Rayon     24.7124 0 0 
+	EtatCtrl  3872
+	EtatRayon 3872
+}
+USE GEOaxsphere1
+DEF GEOaxsphere2 AXSPHERE {
+	Nom       "Cotyle_D"
+	Couleur   [ 0 0.0784314 0.588235 ]
+	Espace    "Prims3D"
+	Centre    -15.185749 -102.533123 -126.271550
+	Rayon     24.6894 0 0 
+	EtatCtrl  3872
+	EtatRayon 3880
+}
+USE GEOaxsphere2
+DEF GEOaxciblefacebassin1 AxCibleFaceBassin {
+	Nom       "SacroIliaqueInf"
+	Flags     [ 0 1 1 0 ]
+	Espace    "Prims3D"
+	Centre    -26.340754  -1.958264  -0.922550
+	CentreG    -23.548765  48.365685  -1.231860
+	CentreD    -29.132742 -52.282213  -0.613239
+	NomContour    Plateau_Sacrum
+	EtatCtrl    2
+	EtatCtrlG    2
+	EtatCtrlD    2
+}
+USE GEOaxciblefacebassin1
+USE GEOtemplate3d1
+DEF GEOtemplate3d2 TEMPLATE3D {
+	Groupe    "Mal_G"
+	Espace    "Prims3D"
+}
+	Position  [
+		1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+
+	          ]
+DEF GEOaxsphere3 AXSPHERE {
+	Nom       "MalleoleExt"
+	Espace    "Prims3D"
+	Centre      0.000000   0.000000   0.000000
+	Rayon     2 0 0 
+	EtatCtrl  3872
+	EtatRayon 3872
+}
+USE GEOaxsphere3
+DEF GEOaxsphere4 AXSPHERE {
+	Nom       "MalleoleInt"
+	Couleur   [ 0.784314 0.392157 0.392157 ]
+	Espace    "Prims3D"
+	Centre     10.000000  10.000000  10.000000
+	Rayon     2 0 0 
+	EtatCtrl  3872
+	EtatRayon 3872
+}
+USE GEOaxsphere4
+DEF GEOaxe2points1 AXE2POINTS {
+	Nom       "AxeMal"
+	Flags     [ 0 1 1 0 ]
+	Espace    "Prims3D"
+	Points    [   0.000000   0.000000   0.000000,
+				 10.000000  10.000000  10.000000 ]
+	Rayons    [ 0,
+				0 ]
+	Etats    [ 3872,
+				3872 ]
+	Style     255 
+}
+USE GEOaxe2points1
+USE GEOtemplate3d2
+DEF GEOtemplate3d3 TEMPLATE3D {
+	Groupe    "Mal_D"
+	Espace    "Prims3D"
+}
+	Position  [
+		1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+
+	          ]
+DEF GEOaxsphere5 AXSPHERE {
+	Nom       "MalleoleExt"
+	Couleur   [ 0 0 1 ]
+	Espace    "Prims3D"
+	Centre      0.000000   0.000000   0.000000
+	Rayon     2 0 0 
+	EtatCtrl  3872
+	EtatRayon 3872
+}
+USE GEOaxsphere5
+DEF GEOaxsphere6 AXSPHERE {
+	Nom       "MalleoleInt"
+	Couleur   [ 0.0235294 0.733333 1 ]
+	Espace    "Prims3D"
+	Centre     10.000000  10.000000  10.000000
+	Rayon     2 0 0 
+	EtatCtrl  3872
+	EtatRayon 3872
+}
+USE GEOaxsphere6
+DEF GEOaxe2points2 AXE2POINTS {
+	Nom       "AxeMal"
+	Flags     [ 0 1 1 0 ]
+	Espace    "Prims3D"
+	Points    [   0.000000   0.000000   0.000000,
+				 10.000000  10.000000  10.000000 ]
+	Rayons    [ 0,
+				0 ]
+	Etats    [ 3872,
+				3872 ]
+	Style     255 
+}
+USE GEOaxe2points2
+USE GEOtemplate3d3
+USE GEOgroupe81
+DEF GEOgroupe82 GROUPE {
+	Groupe    "Epaule"
+	Espace    "Prims3D"
+}
+DEF GEOtemplate3d4 TEMPLATE3D {
+	Groupe    "Scap_G"
+	Espace    "Prims3D"
+}
+	Position  [
+		1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+
+	          ]
+DEF GEOaxsphere7 AXSPHERE {
+	Nom       "Pointe_Coracoide"
+	Couleur   [ 0.784314 0 0 ]
+	Espace    "Prims3D"
+	Centre     28.047000  27.373500   0.240200
+	Rayon     5.9 0 0 
+	EtatCtrl  3872
+	EtatRayon 3872
+}
+USE GEOaxsphere7
+DEF GEOaxcylindre1 AXCYLINDRE {
+	Nom       "Scapula_Lat"
+	Couleur   [ 0.784314 0 0 ]
+	Espace    "Prims3D"
+	Points    [  -5.837200 -89.229300 -34.079100,
+		     -4.539300 -31.348400 -16.497200 ]
+	Rayons    [ 0,
+		    0 ]
+	Etats     [ 3872,
+		    3872 ]
+	Style     255 
+	Rayon     5.3 
+}
+USE GEOaxcylindre1
+USE GEOtemplate3d4
+DEF GEOtemplate3d5 TEMPLATE3D {
+	Groupe    "Scap_D"
+	Espace    "Prims3D"
+}
+	Position  [
+		1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+
+	          ]
+DEF GEOaxsphere8 AXSPHERE {
+	Nom       "Pointe_Coracoide"
+	Couleur   [ 0 0.0784314 0.588235 ]
+	Espace    "Prims3D"
+	Centre     28.047000 -27.373500   0.240200
+	Rayon     5.9 0 0 
+	EtatCtrl  3872
+	EtatRayon 3872
+}
+USE GEOaxsphere8
+DEF GEOaxcylindre2 AXCYLINDRE {
+	Nom       "Scapula_Lat"
+	Couleur   [ 0 0.0784314 0.588235 ]
+	Espace    "Prims3D"
+	Points    [  -5.837200  89.229300 -34.079100,
+		     -4.539300  31.348400 -16.497200 ]
+	Rayons    [ 0,
+		    0 ]
+	Etats     [ 3872,
+		    3872 ]
+	Style     255 
+	Rayon     5.3 
+}
+USE GEOaxcylindre2
+USE GEOtemplate3d5
+DEF GEOtemplate3d6 TEMPLATE3D {
+	Groupe    "Hum_G"
+	Espace    "Prims3D"
+}
+	Position  [
+		1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+
+	          ]
+DEF GEOaxsphere9 AXSPHERE {
+	Nom       "TeteHum"
+	Couleur   [ 0.784314 0 0 ]
+	Espace    "Prims3D"
+	Centre      0.000000   0.000000   0.000000
+	Rayon     22.5 0 0 
+	EtatCtrl  3872
+	EtatRayon 3872
+}
+USE GEOaxsphere9
+DEF GEOaxsphere10 AXSPHERE {
+	Nom       "EpiLateral"
+	Espace    "Prims3D"
+	Centre      0.000000  25.000000 -300.000000
+	Rayon     10 0 0 
+	EtatCtrl  3872
+	EtatRayon 3872
+}
+USE GEOaxsphere10
+DEF GEOaxsphere11 AXSPHERE {
+	Nom       "EpiMedial"
+	Couleur   [ 0.784314 0.392157 0.392157 ]
+	Espace    "Prims3D"
+	Centre      0.000000 -25.000000 -300.000000
+	Rayon     10 0 0 
+	EtatCtrl  3872
+	EtatRayon 3872
+}
+USE GEOaxsphere11
+DEF GEOaxcylindre3 AXCYLINDRE {
+	Nom       "DiaphyseHum"
+	Couleur   [ 0.784314 0 0 ]
+	Espace    "Prims3D"
+	Points    [   0.000000   0.000000 -285.000000,
+		      0.000000   0.000000 -30.000000 ]
+	Rayons    [ 0,
+		    0 ]
+	Etats     [ 3872,
+		    3872 ]
+	Style     255 
+	Rayon     10 
+}
+USE GEOaxcylindre3
+DEF GEOaxe2points3 AXE2POINTS {
+	Nom       "AxeEpi"
+	Flags     [ 0 1 1 0 ]
+	Espace    "Prims3D"
+	Points    [   0.000000  25.000000 -300.000000,
+				  0.000000 -25.000000 -300.000000 ]
+	Rayons    [ 0,
+				0 ]
+	Etats    [ 3872,
+				3872 ]
+	Style     255 
+}
+USE GEOaxe2points3
+USE GEOtemplate3d6
+DEF GEOtemplate3d7 TEMPLATE3D {
+	Groupe    "Hum_D"
+	Espace    "Prims3D"
+}
+	Position  [
+		1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+
+	          ]
+DEF GEOaxsphere12 AXSPHERE {
+	Nom       "TeteHum"
+	Couleur   [ 0 0.0784314 0.588235 ]
+	Espace    "Prims3D"
+	Centre      0.000000   0.000000   0.000000
+	Rayon     22.5 0 0 
+	EtatCtrl  3872
+	EtatRayon 3872
+}
+USE GEOaxsphere12
+DEF GEOaxsphere13 AXSPHERE {
+	Nom       "EpiLateral"
+	Couleur   [ 0 0 1 ]
+	Espace    "Prims3D"
+	Centre      0.000000 -25.000000 -300.000000
+	Rayon     10 0 0 
+	EtatCtrl  3872
+	EtatRayon 3872
+}
+USE GEOaxsphere13
+DEF GEOaxsphere14 AXSPHERE {
+	Nom       "EpiMedial"
+	Couleur   [ 0.0235294 0.733333 1 ]
+	Espace    "Prims3D"
+	Centre      0.000000  25.000000 -300.000000
+	Rayon     10 0 0 
+	EtatCtrl  3872
+	EtatRayon 3872
+}
+USE GEOaxsphere14
+DEF GEOaxcylindre4 AXCYLINDRE {
+	Nom       "DiaphyseHum"
+	Couleur   [ 0 0.0784314 0.588235 ]
+	Espace    "Prims3D"
+	Points    [   0.000000   0.000000 -285.000000,
+		      0.000000   0.000000 -30.000000 ]
+	Rayons    [ 0,
+		    0 ]
+	Etats     [ 3872,
+		    3872 ]
+	Style     255 
+	Rayon     10 
+}
+USE GEOaxcylindre4
+DEF GEOaxe2points4 AXE2POINTS {
+	Nom       "AxeEpi"
+	Flags     [ 0 1 1 0 ]
+	Espace    "Prims3D"
+	Points    [   0.000000 -25.000000 -300.000000,
+				  0.000000  25.000000 -300.000000 ]
+	Rayons    [ 0,
+				0 ]
+	Etats    [ 3872,
+				3872 ]
+	Style     255 
+}
+USE GEOaxe2points4
+USE GEOtemplate3d7
+USE GEOgroupe82
+DEF GEOtemplate3d8 TEMPLATE3D {
+	Groupe    "Taille"
+	Espace    "Prims3D"
+}
+	Position  [
+		1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+
+	          ]
+DEF GEOpoint3detat1 POINT3DETAT {
+	Nom       "LimiteHaute"
+	Flags     [ 0 1 1 0 ]
+	Espace    "Prims3D"
+	Centre      0.000000   0.000000 2044.752532
+	Rayon     2
+	EtatCtrl  3872
+	CtrlBase    0.000000   0.000000 2044.752532
+}
+USE GEOpoint3detat1
+DEF GEOpoint3detat2 POINT3DETAT {
+	Nom       "LimiteBasse"
+	Flags     [ 0 1 1 0 ]
+	Espace    "Prims3D"
+	Centre      0.000000   0.000000 320.000000
+	Rayon     2
+	EtatCtrl  3872
+	CtrlBase    0.000000   0.000000 320.000000
+}
+USE GEOpoint3detat2
+USE GEOtemplate3d8
+DEF GEOgroupe83 GROUPE {
+	Groupe    "Coude"
+	Espace    "Prims3D"
+}
+DEF GEOtemplate3d9 TEMPLATE3D {
+	Groupe    "Coude_G"
+	Espace    "Prims3D"
+}
+	Position  [
+		1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+
+	          ]
+DEF GEOaxsphere15 AXSPHERE {
+	Nom       "Tete_Humerus"
+	Espace    "Prims3D"
+	Centre      0.000000   0.000000   0.000000
+	Rayon     23.3874 0 0 
+	EtatCtrl  3872
+	EtatRayon 3872
+}
+USE GEOaxsphere15
+DEF GEOaxsphere16 AXSPHERE {
+	Nom       "Tete_Capitulum"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Prims3D"
+	Centre      0.000000   0.000000 -281.844696
+	Rayon     11.0673 0 0 
+	EtatCtrl  3872
+	EtatRayon 3872
+}
+USE GEOaxsphere16
+DEF GEOaxe2points5 AXE2POINTS {
+	Nom       "AxeTHumTCap"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Prims3D"
+	Points    [   0.000000   0.000000   0.000000,
+				  0.000000   0.000000 -281.844696 ]
+	Rayons    [ 0.5,
+				0.5 ]
+	Etats    [ 3872,
+				3872 ]
+	Style     -15421 
+}
+USE GEOaxe2points5
+USE GEOtemplate3d9
+DEF GEOtemplate3d10 TEMPLATE3D {
+	Groupe    "Coude_D"
+	Espace    "Prims3D"
+}
+	Position  [
+		1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+
+	          ]
+DEF GEOaxsphere17 AXSPHERE {
+	Nom       "Tete_Humerus"
+	Couleur   [ 0.784314 0 0 ]
+	Espace    "Prims3D"
+	Centre      0.000000   0.000000   0.000000
+	Rayon     23.3874 0 0 
+	EtatCtrl  3872
+	EtatRayon 3872
+}
+USE GEOaxsphere17
+DEF GEOaxsphere18 AXSPHERE {
+	Nom       "Tete_Capitulum"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Prims3D"
+	Centre      0.000000   0.000000 -281.844696
+	Rayon     11.0673 0 0 
+	EtatCtrl  3872
+	EtatRayon 3872
+}
+USE GEOaxsphere18
+DEF GEOaxe2points6 AXE2POINTS {
+	Nom       "AxeTHumTCap"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Prims3D"
+	Points    [   0.000000   0.000000   0.000000,
+				  0.000000   0.000000 -281.844696 ]
+	Rayons    [ 0.5,
+				0.5 ]
+	Etats    [ 3872,
+				3872 ]
+	Style     -15421 
+}
+USE GEOaxe2points6
+USE GEOtemplate3d10
+USE GEOgroupe83
+] } ] }
+Group { children [
+Transform {
+	translation 495 4 0.0
+	scale		0.01 0.01 0.01
+	rotation	1 0 0 3.1416
+	children
+[
+Transform {translation   0.000000 11511.585786   0.000000
+scale   5.575286  -5.575286   1.000000
+rotation     0.0000     0.0000     0.0000     3.1416
+
+	children
+[
+DEF espace50 ESPACE { Nom "ContoursPA-0" }
+] } ] } ] }
+Group { children [
+Transform {
+	translation 505 4 0.0
+	scale		0.01 0.01 0.01
+	rotation	1 0 0 3.1416
+	children
+[
+Transform {translation   0.000000 11511.585786   0.000000
+scale   5.575286  -5.575286   1.000000
+rotation     0.0000     0.0000     0.0000     3.1416
+
+	children
+[
+DEF espace51 ESPACE { Nom "OutilsPA-0" }
+DEF GEOgroupe84 GROUPE {
+	Groupe    "OutilsPA-0"
+	Espace    "OutilsPA-0"
+}
+USE GEOgroupe84
+] } ] } ] }
+Group { children [
+Transform {
+	translation 515 4 0.0
+	scale		0.01 0.01 0.01
+	rotation	1 0 0 3.1416
+	children
+[
+DEF espace52 ESPACE { Nom "Outils3D" }
+DEF GEOgroupe85 GROUPE {
+	Groupe    "Outils3D"
+	Espace    "Outils3D"
+}
+USE GEOgroupe85
+] } ] }
+Group { children [
+Transform {
+	translation 525 4 0.0
+	scale		0.01 0.01 0.01
+	rotation	1 0 0 3.1416
+	children
+[
+Transform {translation   0.000000 11511.585786   0.000000
+scale   5.575286  -5.575286   1.000000
+rotation     0.0000     0.0000     0.0000     3.1416
+
+	children
+[
+DEF espace53 ESPACE { Nom "ContoursLAT" }
+] } ] } ] }
+Group { children [
+Transform {
+	translation 535 4 0.0
+	scale		0.01 0.01 0.01
+	rotation	1 0 0 3.1416
+	children
+[
+Transform {translation   0.000000 11511.585786   0.000000
+scale   5.575286  -5.575286   1.000000
+rotation     0.0000     0.0000     0.0000     3.1416
+
+	children
+[
+DEF espace54 ESPACE { Nom "OutilsLAT" }
+DEF GEOgroupe86 GROUPE {
+	Groupe    "OutilsLAT"
+	Espace    "OutilsLAT"
+}
+USE GEOgroupe86
+] } ] } ] }
+Group { children [
+Transform {
+	translation 545 4 0.0
+	scale		0.01 0.01 0.01
+	rotation	1 0 0 3.1416
+	children
+[
+DEF espace55 ESPACE { Nom "Recons" }
+DEF GEOgroupe87 GROUPE {
+	Groupe    "Recons"
+	Espace    "Recons"
+}
+DEF GEOgroupe88 GROUPE {
+	Groupe    "Vertebre_T1"
+	Espace    "Recons"
+}
+USE GEOgroupe88
+DEF GEOgroupe89 GROUPE {
+	Groupe    "Vertebre_T2"
+	Espace    "Recons"
+}
+USE GEOgroupe89
+DEF GEOgroupe90 GROUPE {
+	Groupe    "Vertebre_T3"
+	Espace    "Recons"
+}
+USE GEOgroupe90
+DEF GEOgroupe91 GROUPE {
+	Groupe    "Vertebre_T4"
+	Espace    "Recons"
+}
+USE GEOgroupe91
+DEF GEOgroupe92 GROUPE {
+	Groupe    "Vertebre_T5"
+	Espace    "Recons"
+}
+USE GEOgroupe92
+DEF GEOgroupe93 GROUPE {
+	Groupe    "Vertebre_T6"
+	Espace    "Recons"
+}
+USE GEOgroupe93
+DEF GEOgroupe94 GROUPE {
+	Groupe    "Vertebre_T7"
+	Espace    "Recons"
+}
+USE GEOgroupe94
+DEF GEOgroupe95 GROUPE {
+	Groupe    "Vertebre_T8"
+	Espace    "Recons"
+}
+USE GEOgroupe95
+DEF GEOgroupe96 GROUPE {
+	Groupe    "Vertebre_T9"
+	Espace    "Recons"
+}
+USE GEOgroupe96
+DEF GEOgroupe97 GROUPE {
+	Groupe    "Vertebre_T10"
+	Espace    "Recons"
+}
+USE GEOgroupe97
+DEF GEOgroupe98 GROUPE {
+	Groupe    "Vertebre_T11"
+	Espace    "Recons"
+}
+USE GEOgroupe98
+DEF GEOgroupe99 GROUPE {
+	Groupe    "Vertebre_T12"
+	Espace    "Recons"
+}
+USE GEOgroupe99
+DEF GEOgroupe100 GROUPE {
+	Groupe    "Vertebre_L1"
+	Espace    "Recons"
+}
+DEF GEOpoint3d1 POINT3D {
+	Nom       "Plat_Sup_G"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -39.611395  24.177142 1558.403877
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d1
+DEF GEOpoint3d2 POINT3D {
+	Nom       "Plat_Sup_Cent"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -39.563162   1.493446 1559.823202
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d2
+DEF GEOpoint3d3 POINT3D {
+	Nom       "Plat_Sup_D"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -39.514930 -21.190250 1561.242527
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d3
+DEF GEOpoint3d4 POINT3D {
+	Nom       "Plat_Sup_Ant"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -23.106936   1.845340 1564.887956
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d4
+DEF GEOpoint3d5 POINT3D {
+	Nom       "Plat_Sup_Post"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -56.019388   1.141552 1554.758449
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d5
+DEF GEOpoint3d6 POINT3D {
+	Nom       "Plat_Inf_G"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre    -30.179093  18.607204 1534.106231
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d6
+DEF GEOpoint3d7 POINT3D {
+	Nom       "Plat_Inf_Cent"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre    -30.122395  -2.838679 1535.386711
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d7
+DEF GEOpoint3d8 POINT3D {
+	Nom       "Plat_Inf_D"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre    -30.065697 -24.284561 1536.667190
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d8
+DEF GEOpoint3d9 POINT3D {
+	Nom       "Plat_Inf_Ant"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre    -11.922870  -2.398768 1541.948618
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d9
+DEF GEOpoint3d10 POINT3D {
+	Nom       "Plat_Inf_Post"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre    -48.321919  -3.278589 1528.824803
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d10
+DEF GEOpoint3d11 POINT3D {
+	Nom       "Plat_Cent_G"
+	Couleur   [ 0.0235294 0.733333 1 ]
+	Espace    "Recons"
+	Centre    -38.269303  17.713701 1541.274093
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d11
+DEF GEOpoint3d12 POINT3D {
+	Nom       "Plat_Cent_D"
+	Couleur   [ 0.0235294 0.733333 1 ]
+	Espace    "Recons"
+	Centre    -38.958690 -18.713015 1548.166019
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d12
+DEF GEOpoint3d13 POINT3D {
+	Nom       "Plat_Cent_Ant"
+	Couleur   [ 0.0235294 0.733333 1 ]
+	Espace    "Recons"
+	Centre    -20.114957  -0.597253 1553.649064
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d13
+DEF GEOpoint3d14 POINT3D {
+	Nom       "Ped_Inf_G"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -55.663893  11.644028 1534.049401
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d14
+DEF GEOpoint3d15 POINT3D {
+	Nom       "Ped_Inf_D"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -54.940197 -17.136019 1537.406250
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d15
+DEF GEOpoint3d16 POINT3D {
+	Nom       "Ped_Sup_G"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -60.937041  14.918557 1549.274049
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d16
+DEF GEOpoint3d17 POINT3D {
+	Nom       "Ped_Sup_D"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -61.304188 -13.889282 1551.719067
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d17
+DEF GEOpoint3d18 POINT3D {
+	Nom       "Ped_G_Ext"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -56.900168  16.361926 1541.650276
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d18
+DEF GEOpoint3d19 POINT3D {
+	Nom       "Ped_G_Int"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -58.429197   9.867649 1543.205558
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d19
+DEF GEOpoint3d20 POINT3D {
+	Nom       "Ped_D_Int"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -58.857084 -12.240654 1544.588794
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d20
+DEF GEOpoint3d21 POINT3D {
+	Nom       "Ped_D_Ext"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -56.942093 -17.405016 1544.511759
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d21
+DEF GEOpoint3d22 POINT3D {
+	Nom       "Apo_Trans_G"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -68.553555  37.570027 1540.150806
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d22
+DEF GEOpoint3d23 POINT3D {
+	Nom       "Apo_Trans_D"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -69.643467 -37.274038 1542.275141
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d23
+DEF GEOpoint3d24 POINT3D {
+	Nom       "Apo_Epin_Post"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -97.111011  -2.105101 1523.252329
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d24
+DEF GEOpoint3d25 POINT3D {
+	Nom       "Fac_Sup_G"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -78.438387  13.791017 1554.225123
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d25
+DEF GEOpoint3d26 POINT3D {
+	Nom       "Fac_Sup_D"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -73.835100 -12.638986 1553.811857
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d26
+DEF GEOpoint3d27 POINT3D {
+	Nom       "Fac_Inf_G"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -66.781471   9.570612 1518.218074
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d27
+DEF GEOpoint3d28 POINT3D {
+	Nom       "Fac_Inf_D"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -67.633282 -13.560058 1517.341077
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d28
+USE GEOgroupe100
+DEF GEOgroupe101 GROUPE {
+	Groupe    "Vertebre_L2"
+	Espace    "Recons"
+}
+DEF GEOpoint3d29 POINT3D {
+	Nom       "Plat_Sup_G"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -26.917363  19.553980 1526.097865
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d29
+DEF GEOpoint3d30 POINT3D {
+	Nom       "Plat_Sup_Cent"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -27.604265  -3.114606 1528.493931
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d30
+DEF GEOpoint3d31 POINT3D {
+	Nom       "Plat_Sup_D"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -28.291167 -25.783193 1530.889997
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d31
+DEF GEOpoint3d32 POINT3D {
+	Nom       "Plat_Sup_Ant"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -10.700152  -2.896076 1535.407449
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d32
+DEF GEOpoint3d33 POINT3D {
+	Nom       "Plat_Sup_Post"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -44.508379  -3.333137 1521.580413
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d33
+DEF GEOpoint3d34 POINT3D {
+	Nom       "Plat_Inf_G"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre    -16.939209  17.631125 1499.025370
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d34
+DEF GEOpoint3d35 POINT3D {
+	Nom       "Plat_Inf_Cent"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre    -17.609025  -4.468216 1501.581884
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d35
+DEF GEOpoint3d36 POINT3D {
+	Nom       "Plat_Inf_D"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre    -18.278840 -26.567556 1504.138399
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d36
+DEF GEOpoint3d37 POINT3D {
+	Nom       "Plat_Inf_Ant"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre     -0.365777  -4.390360 1506.772684
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d37
+DEF GEOpoint3d38 POINT3D {
+	Nom       "Plat_Inf_Post"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre    -34.852272  -4.546071 1496.391085
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d38
+DEF GEOpoint3d39 POINT3D {
+	Nom       "Plat_Cent_G"
+	Couleur   [ 0.0235294 0.733333 1 ]
+	Espace    "Recons"
+	Centre    -24.056844  15.646479 1510.776489
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d39
+DEF GEOpoint3d40 POINT3D {
+	Nom       "Plat_Cent_D"
+	Couleur   [ 0.0235294 0.733333 1 ]
+	Espace    "Recons"
+	Centre    -25.313640 -22.815820 1515.143893
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d40
+DEF GEOpoint3d41 POINT3D {
+	Nom       "Plat_Cent_Ant"
+	Couleur   [ 0.0235294 0.733333 1 ]
+	Espace    "Recons"
+	Centre     -7.266215  -5.548048 1521.069626
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d41
+DEF GEOpoint3d42 POINT3D {
+	Nom       "Ped_Inf_G"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -41.856528  12.237765 1505.911229
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d42
+DEF GEOpoint3d43 POINT3D {
+	Nom       "Ped_Inf_D"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -43.136130 -19.565504 1508.138939
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d43
+DEF GEOpoint3d44 POINT3D {
+	Nom       "Ped_Sup_G"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -47.122104  12.866167 1520.558342
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d44
+DEF GEOpoint3d45 POINT3D {
+	Nom       "Ped_Sup_D"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -50.058894 -17.812147 1522.926523
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d45
+DEF GEOpoint3d46 POINT3D {
+	Nom       "Ped_G_Ext"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -42.924299  16.307343 1513.999344
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d46
+DEF GEOpoint3d47 POINT3D {
+	Nom       "Ped_G_Int"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -45.896459   7.962999 1514.613934
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d47
+DEF GEOpoint3d48 POINT3D {
+	Nom       "Ped_D_Int"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -47.522172 -14.416271 1516.325184
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d48
+DEF GEOpoint3d49 POINT3D {
+	Nom       "Ped_D_Ext"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -44.842293 -22.306941 1515.500586
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d49
+DEF GEOpoint3d50 POINT3D {
+	Nom       "Apo_Trans_G"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -57.489088  32.102894 1506.201738
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d50
+DEF GEOpoint3d51 POINT3D {
+	Nom       "Apo_Trans_D"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -65.905529 -41.357067 1512.090669
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d51
+DEF GEOpoint3d52 POINT3D {
+	Nom       "Apo_Epin_Post"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -87.587017  -4.683602 1491.654505
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d52
+DEF GEOpoint3d53 POINT3D {
+	Nom       "Fac_Sup_G"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -68.163882  11.833624 1520.300864
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d53
+DEF GEOpoint3d54 POINT3D {
+	Nom       "Fac_Sup_D"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -65.424152 -15.644133 1521.425599
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d54
+DEF GEOpoint3d55 POINT3D {
+	Nom       "Fac_Inf_G"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -61.938191  10.654887 1490.336726
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d55
+DEF GEOpoint3d56 POINT3D {
+	Nom       "Fac_Inf_D"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -57.531534 -20.101308 1490.838458
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d56
+USE GEOgroupe101
+DEF GEOgroupe102 GROUPE {
+	Groupe    "Vertebre_L3"
+	Espace    "Recons"
+}
+DEF GEOpoint3d57 POINT3D {
+	Nom       "Plat_Sup_G"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -16.710354  17.297674 1494.343115
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d57
+DEF GEOpoint3d58 POINT3D {
+	Nom       "Plat_Sup_Cent"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -16.010143  -5.264532 1495.898225
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d58
+DEF GEOpoint3d59 POINT3D {
+	Nom       "Plat_Sup_D"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -15.309933 -27.826737 1497.453334
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d59
+DEF GEOpoint3d60 POINT3D {
+	Nom       "Plat_Sup_Ant"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre      1.580410  -4.509070 1498.938386
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d60
+DEF GEOpoint3d61 POINT3D {
+	Nom       "Plat_Sup_Post"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -33.600697  -6.019994 1492.858063
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d61
+DEF GEOpoint3d62 POINT3D {
+	Nom       "Plat_Inf_G"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre    -12.750079  17.938866 1466.099267
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d62
+DEF GEOpoint3d63 POINT3D {
+	Nom       "Plat_Inf_Cent"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre    -12.051005  -6.511447 1467.042997
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d63
+DEF GEOpoint3d64 POINT3D {
+	Nom       "Plat_Inf_D"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre    -11.351932 -30.961760 1467.986726
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d64
+DEF GEOpoint3d65 POINT3D {
+	Nom       "Plat_Inf_Ant"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre      6.429923  -5.857081 1470.306576
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d65
+DEF GEOpoint3d66 POINT3D {
+	Nom       "Plat_Inf_Post"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre    -30.531934  -7.165814 1463.779417
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d66
+DEF GEOpoint3d67 POINT3D {
+	Nom       "Plat_Cent_G"
+	Couleur   [ 0.0235294 0.733333 1 ]
+	Espace    "Recons"
+	Centre    -16.572491  14.454171 1478.955681
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d67
+DEF GEOpoint3d68 POINT3D {
+	Nom       "Plat_Cent_D"
+	Couleur   [ 0.0235294 0.733333 1 ]
+	Espace    "Recons"
+	Centre    -14.987360 -26.567624 1481.878939
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d68
+DEF GEOpoint3d69 POINT3D {
+	Nom       "Plat_Cent_Ant"
+	Couleur   [ 0.0235294 0.733333 1 ]
+	Espace    "Recons"
+	Centre      3.873893  -7.098976 1482.843001
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d69
+DEF GEOpoint3d70 POINT3D {
+	Nom       "Ped_Inf_G"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -33.864933   9.443893 1474.894526
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d70
+DEF GEOpoint3d71 POINT3D {
+	Nom       "Ped_Inf_D"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -33.250923 -22.795438 1475.510812
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d71
+DEF GEOpoint3d72 POINT3D {
+	Nom       "Ped_Sup_G"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -36.452582   9.875221 1489.350279
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d72
+DEF GEOpoint3d73 POINT3D {
+	Nom       "Ped_Sup_D"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -36.539643 -21.619196 1490.193216
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d73
+DEF GEOpoint3d74 POINT3D {
+	Nom       "Ped_G_Ext"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -32.909330  14.800958 1482.754154
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d74
+DEF GEOpoint3d75 POINT3D {
+	Nom       "Ped_G_Int"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -36.507968   3.719730 1483.544259
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d75
+DEF GEOpoint3d76 POINT3D {
+	Nom       "Ped_D_Int"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -36.554082 -16.449596 1483.525288
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d76
+DEF GEOpoint3d77 POINT3D {
+	Nom       "Ped_D_Ext"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -34.396416 -27.996800 1483.249894
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d77
+DEF GEOpoint3d78 POINT3D {
+	Nom       "Apo_Trans_G"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -45.122119  35.747685 1480.925418
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d78
+DEF GEOpoint3d79 POINT3D {
+	Nom       "Apo_Trans_D"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -49.240830 -47.591987 1481.884839
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d79
+DEF GEOpoint3d80 POINT3D {
+	Nom       "Apo_Epin_Post"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -82.987739  -4.497798 1462.620539
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d80
+DEF GEOpoint3d81 POINT3D {
+	Nom       "Fac_Sup_G"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -51.207461   6.872499 1490.602886
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d81
+DEF GEOpoint3d82 POINT3D {
+	Nom       "Fac_Sup_D"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -51.558340 -20.585668 1492.142372
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d82
+DEF GEOpoint3d83 POINT3D {
+	Nom       "Fac_Inf_G"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -48.814692  12.810807 1457.209529
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d83
+DEF GEOpoint3d84 POINT3D {
+	Nom       "Fac_Inf_D"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -50.066488 -21.688040 1455.546914
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d84
+USE GEOgroupe102
+DEF GEOgroupe103 GROUPE {
+	Groupe    "Vertebre_L4"
+	Espace    "Recons"
+}
+DEF GEOpoint3d85 POINT3D {
+	Nom       "Plat_Sup_G"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -13.704927  19.920440 1460.329413
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d85
+DEF GEOpoint3d86 POINT3D {
+	Nom       "Plat_Sup_Cent"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre     -9.965217  -6.581719 1459.814193
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d86
+DEF GEOpoint3d87 POINT3D {
+	Nom       "Plat_Sup_D"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre     -6.225507 -33.083879 1459.298974
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d87
+DEF GEOpoint3d88 POINT3D {
+	Nom       "Plat_Sup_Ant"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre      8.796386  -3.934996 1459.851185
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d88
+DEF GEOpoint3d89 POINT3D {
+	Nom       "Plat_Sup_Post"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -28.726820  -9.228443 1459.777202
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d89
+DEF GEOpoint3d90 POINT3D {
+	Nom       "Plat_Inf_G"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre    -14.119294  21.869341 1433.337716
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d90
+DEF GEOpoint3d91 POINT3D {
+	Nom       "Plat_Inf_Cent"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre    -10.319076  -5.245621 1432.553082
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d91
+DEF GEOpoint3d92 POINT3D {
+	Nom       "Plat_Inf_D"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre     -6.518859 -32.360583 1431.768448
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d92
+DEF GEOpoint3d93 POINT3D {
+	Nom       "Plat_Inf_Ant"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre      7.802482  -2.675038 1431.488405
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d93
+DEF GEOpoint3d94 POINT3D {
+	Nom       "Plat_Inf_Post"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre    -28.440635  -7.816203 1433.617759
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d94
+DEF GEOpoint3d95 POINT3D {
+	Nom       "Plat_Cent_G"
+	Couleur   [ 0.0235294 0.733333 1 ]
+	Espace    "Recons"
+	Centre    -11.132900  17.368387 1446.245893
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d95
+DEF GEOpoint3d96 POINT3D {
+	Nom       "Plat_Cent_D"
+	Couleur   [ 0.0235294 0.733333 1 ]
+	Espace    "Recons"
+	Centre     -7.664256 -28.971153 1444.721277
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d96
+DEF GEOpoint3d97 POINT3D {
+	Nom       "Plat_Cent_Ant"
+	Couleur   [ 0.0235294 0.733333 1 ]
+	Espace    "Recons"
+	Centre      7.487168  -6.758534 1445.073966
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d97
+DEF GEOpoint3d98 POINT3D {
+	Nom       "Ped_Inf_G"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -28.543409   6.593924 1439.471787
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d98
+DEF GEOpoint3d99 POINT3D {
+	Nom       "Ped_Inf_D"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -26.036171 -20.643844 1442.553340
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d99
+DEF GEOpoint3d100 POINT3D {
+	Nom       "Ped_Sup_G"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -31.414864   5.759849 1452.165014
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d100
+DEF GEOpoint3d101 POINT3D {
+	Nom       "Ped_Sup_D"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -28.899492 -21.331157 1455.446744
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d101
+DEF GEOpoint3d102 POINT3D {
+	Nom       "Ped_G_Ext"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -28.182493  12.699973 1445.101074
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d102
+DEF GEOpoint3d103 POINT3D {
+	Nom       "Ped_G_Int"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -30.331840  -0.626994 1445.975012
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d103
+DEF GEOpoint3d104 POINT3D {
+	Nom       "Ped_D_Int"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -29.940206 -15.393653 1450.345255
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d104
+DEF GEOpoint3d105 POINT3D {
+	Nom       "Ped_D_Ext"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -24.953266 -26.913550 1448.037791
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d105
+DEF GEOpoint3d106 POINT3D {
+	Nom       "Apo_Trans_G"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -54.866829  33.937113 1449.212002
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d106
+DEF GEOpoint3d107 POINT3D {
+	Nom       "Apo_Trans_D"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -51.603771 -42.759772 1449.661936
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d107
+DEF GEOpoint3d108 POINT3D {
+	Nom       "Apo_Epin_Post"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -76.174665  -2.428174 1438.156468
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d108
+DEF GEOpoint3d109 POINT3D {
+	Nom       "Fac_Sup_G"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -51.832301   7.270691 1459.562211
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d109
+DEF GEOpoint3d110 POINT3D {
+	Nom       "Fac_Sup_D"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -47.514560 -23.572052 1458.179240
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d110
+DEF GEOpoint3d111 POINT3D {
+	Nom       "Fac_Inf_G"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -50.019268  17.404574 1427.645009
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d111
+DEF GEOpoint3d112 POINT3D {
+	Nom       "Fac_Inf_D"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -48.132429 -23.041446 1429.492909
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d112
+USE GEOgroupe103
+DEF GEOgroupe104 GROUPE {
+	Groupe    "Vertebre_L5"
+	Espace    "Recons"
+}
+DEF GEOpoint3d113 POINT3D {
+	Nom       "Plat_Sup_G"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre     -7.456056  15.332957 1424.561421
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d113
+DEF GEOpoint3d114 POINT3D {
+	Nom       "Plat_Sup_Cent"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre     -9.358728  -5.887577 1423.268216
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d114
+DEF GEOpoint3d115 POINT3D {
+	Nom       "Plat_Sup_D"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -11.261400 -27.108111 1421.975011
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d115
+DEF GEOpoint3d116 POINT3D {
+	Nom       "Plat_Sup_Ant"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre      8.730179  -7.150339 1417.375284
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d116
+DEF GEOpoint3d117 POINT3D {
+	Nom       "Plat_Sup_Post"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -27.447635  -4.624814 1429.161148
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d117
+DEF GEOpoint3d118 POINT3D {
+	Nom       "Plat_Inf_G"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre    -16.731791  23.890939 1396.578330
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d118
+DEF GEOpoint3d119 POINT3D {
+	Nom       "Plat_Inf_Cent"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre    -18.596115  -4.563512 1397.304953
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d119
+DEF GEOpoint3d120 POINT3D {
+	Nom       "Plat_Inf_D"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre    -20.460439 -33.017964 1398.031575
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d120
+DEF GEOpoint3d121 POINT3D {
+	Nom       "Plat_Inf_Ant"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre     -2.530229  -5.814848 1389.523671
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d121
+DEF GEOpoint3d122 POINT3D {
+	Nom       "Plat_Inf_Post"
+	Couleur   [ 0 1 0 ]
+	Espace    "Recons"
+	Centre    -34.662001  -3.312177 1405.086234
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d122
+DEF GEOpoint3d123 POINT3D {
+	Nom       "Plat_Cent_G"
+	Couleur   [ 0.0235294 0.733333 1 ]
+	Espace    "Recons"
+	Centre    -15.699420  18.318600 1408.190382
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d123
+DEF GEOpoint3d124 POINT3D {
+	Nom       "Plat_Cent_D"
+	Couleur   [ 0.0235294 0.733333 1 ]
+	Espace    "Recons"
+	Centre    -17.176313 -25.489273 1406.656687
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d124
+DEF GEOpoint3d125 POINT3D {
+	Nom       "Plat_Cent_Ant"
+	Couleur   [ 0.0235294 0.733333 1 ]
+	Espace    "Recons"
+	Centre      1.019716  -5.725610 1404.301424
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d125
+DEF GEOpoint3d126 POINT3D {
+	Nom       "Ped_Inf_G"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -32.065412  14.046366 1411.311088
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d126
+DEF GEOpoint3d127 POINT3D {
+	Nom       "Ped_Inf_D"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -31.299635 -24.685916 1411.036341
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d127
+DEF GEOpoint3d128 POINT3D {
+	Nom       "Ped_Sup_G"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -29.272074  17.312517 1418.609207
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d128
+DEF GEOpoint3d129 POINT3D {
+	Nom       "Ped_Sup_D"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -32.702063 -23.972172 1420.693982
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d129
+DEF GEOpoint3d130 POINT3D {
+	Nom       "Ped_G_Ext"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -26.127664  21.658240 1411.890341
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d130
+DEF GEOpoint3d131 POINT3D {
+	Nom       "Ped_G_Int"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -31.808176  10.188573 1417.152696
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d131
+DEF GEOpoint3d132 POINT3D {
+	Nom       "Ped_D_Int"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -34.242721 -18.247311 1416.863810
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d132
+DEF GEOpoint3d133 POINT3D {
+	Nom       "Ped_D_Ext"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -28.912578 -28.571660 1413.321642
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d133
+DEF GEOpoint3d134 POINT3D {
+	Nom       "Apo_Trans_G"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -50.938994  40.276520 1420.245068
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d134
+DEF GEOpoint3d135 POINT3D {
+	Nom       "Apo_Trans_D"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -44.663534 -45.988132 1419.589674
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d135
+DEF GEOpoint3d136 POINT3D {
+	Nom       "Apo_Epin_Post"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -73.330589  -3.404377 1415.262901
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d136
+DEF GEOpoint3d137 POINT3D {
+	Nom       "Fac_Sup_G"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -50.058661  14.100200 1430.428977
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d137
+DEF GEOpoint3d138 POINT3D {
+	Nom       "Fac_Sup_D"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -48.358483 -22.018713 1430.841001
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d138
+DEF GEOpoint3d139 POINT3D {
+	Nom       "Fac_Inf_G"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -53.228019  20.288997 1406.401986
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d139
+DEF GEOpoint3d140 POINT3D {
+	Nom       "Fac_Inf_D"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -49.861407 -26.084140 1405.676210
+	Rayon     0.5 0.5 0.5 
+}
+USE GEOpoint3d140
+USE GEOgroupe104
+DEF GEOgroupe105 GROUPE {
+	Groupe    "Cage"
+	Espace    "Recons"
+}
+USE GEOgroupe105
+DEF GEOgroupe106 GROUPE {
+	Groupe    "Bassin"
+	Espace    "Recons"
+}
+USE GEOgroupe106
+USE GEOgroupe87
+DEF GEOgroupe107 GROUPE {
+	Groupe    "Recons_2"
+	Espace    "Recons"
+}
+DEF GEOgroupe108 GROUPE {
+	Groupe    "Bassin"
+	Espace    "Recons"
+}
+USE GEOgroupe108
+USE GEOgroupe107
+DEF GEOgroupe109 GROUPE {
+	Groupe    "Colonne_Modele3DRecons_Vertebre_L1"
+	Espace    "Recons"
+}
+DEF GEOcourbekrig1 COURBEKRIG {
+	Nom       "Corps"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Points	[
+		-39.563162   1.493446 1559.823202	0	0.6	3880 ,
+		-28.863330  -2.976642 1531.940321	0	0.6	3880 ,
+		-16.809584  -4.866374 1498.740055	0	0.6	3880 ,
+		-11.008111  -6.546583 1463.428595	0	0.6	3880 ,
+		 -9.838902  -5.566599 1427.910649	0	0.6	3880 ,
+		-18.596115  -4.563512 1397.304953	0	0.6	3880
+
+	]
+	Ders	[
+
+	]
+	DersT	[
+		   49.6465    -9.9444  -160.6188     0.0000	0	0 ,
+		   57.3859    -9.3141  -158.5360     0.0000	1	0.155121 ,
+		   64.0018   -18.4188  -155.9074     0.0000	2	0.20137 ,
+		   48.2512   -19.9700  -159.9856     0.0000	3	0.368107 ,
+		   29.3215   -10.6020  -167.0215     0.0000	4	0.405783 ,
+		   29.6254    -5.5850  -166.6421     0.0000	5	0.578324 ,
+		   -0.1289     3.2961  -170.4823     0.0000	6	0.622794 ,
+		  -10.2574     3.3785  -166.4304     0.0000	7	0.783681 ,
+		  -51.1703    14.3475  -160.1465     0.0000	8	0.841437 ,
+		  -74.2749     0.9465  -153.5063     0.0000	9	1
+
+	]
+	PointsBase	[
+		-40.461078   1.235192 1559.733546 ,
+		-31.080889  -3.207033 1531.785064 ,
+		-18.999615  -7.484516 1499.110258 ,
+		-10.377613  -7.899096 1464.514761 ,
+		 -9.848623  -5.390470 1429.183659 ,
+		-19.896386  -3.658920 1398.435554
+
+	]
+	Modes	[
+		AfficherCtrls	0 ,
+		ModeGlisse	1 ,
+		ModeMultiPepite	1 ,
+		ModeGauss	1 ,
+		SigmaGauss	0.02 ,
+		MaxiGauss	3
+
+	]
+}
+USE GEOcourbekrig1
+DEF GEOcourbekrig2 COURBEKRIG {
+	Nom       "Canal"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Points	[
+		-57.378651  -0.975414 1543.531465	0	0.6	3874 ,
+		-44.702989  -3.123572 1515.021605	0	0.6	3874 ,
+		-33.769233  -6.390976 1483.060688	0	0.6	3874 ,
+		-23.258318  -7.790199 1447.506180	0	0.6	3874 ,
+		-30.528437  -4.023135 1414.907194	0	0.6	3874
+
+	]
+	Ders	[
+
+	]
+	DersT	[
+
+	]
+	PointsBase	[
+		-57.782034  -0.167137 1545.174590 ,
+		-45.524799  -4.490682 1513.573478 ,
+		-34.502984  -6.963899 1481.994991 ,
+		-25.971787  -6.709505 1452.359255 ,
+		-30.498059  -4.619585 1422.561537
+
+	]
+	Modes	[
+		AfficherCtrls	0 ,
+		ModeGlisse	1 ,
+		ModeMultiPepite	0 ,
+		ModeGauss	0 ,
+
+	]
+}
+USE GEOcourbekrig2
+DEF GEOaxactioncolonne1 AXACTIONCOLONNE {
+	Groupe    "PointsStat"
+	Espace    "Recons"
+}
+DEF GEOcible1 CIBLE {
+	Nom       "VersionCAxColonne"
+	Label     "2"
+	Etat      3
+	Espace    "Recons"
+	Centre      0.000000   0.000000   0.000000
+	Croix     5 5 5
+}
+USE GEOcible1
+DEF GEOgroupe110 GROUPE {
+	Groupe    "Plateaux"
+	Espace    "Recons"
+}
+DEF GEOpoint3dcourbekrig1 POINT3DCOURBEKRIG {
+	Nom       "0"
+	Espace    "Recons"
+	Centre    -39.563162   1.493446 1559.823202
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -40.461172   1.235130 1559.733521
+	T         0
+	Tangente     49.6465    -9.9444  -160.6188     0.0000
+}
+USE GEOpoint3dcourbekrig1
+DEF GEOpoint3dcourbekrig2 POINT3DCOURBEKRIG {
+	Nom       "1"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -30.122395  -2.838679 1535.386711
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -32.126500  -2.629055 1534.393442
+	T         0.157176
+	Tangente     57.3859    -9.3141  -158.5360     0.0000
+}
+USE GEOpoint3dcourbekrig2
+DEF GEOpoint3dcourbekrig3 POINT3DCOURBEKRIG {
+	Nom       "2"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -27.604265  -3.114606 1528.493931
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -30.146005  -3.553254 1529.228943
+	T         0.200514
+	Tangente     64.0018   -18.4188  -155.9074     0.0000
+}
+USE GEOpoint3dcourbekrig3
+DEF GEOpoint3dcourbekrig4 POINT3DCOURBEKRIG {
+	Nom       "3"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -17.609025  -4.468216 1501.581884
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -19.765054  -7.269672 1501.349945
+	T         0.370747
+	Tangente     48.2512   -19.9700  -159.9856     0.0000
+}
+USE GEOpoint3dcourbekrig4
+DEF GEOpoint3dcourbekrig5 POINT3DCOURBEKRIG {
+	Nom       "4"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -16.010143  -5.264532 1495.898225
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -18.332705  -7.594076 1497.045497
+	T         0.405905
+	Tangente     29.3215   -10.6020  -167.0215     0.0000
+}
+USE GEOpoint3dcourbekrig5
+DEF GEOpoint3dcourbekrig6 POINT3DCOURBEKRIG {
+	Nom       "5"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -12.051005  -6.511447 1467.042997
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -10.731556  -7.966092 1466.747927
+	T         0.578557
+	Tangente     29.6254    -5.5850  -166.6421     0.0000
+}
+USE GEOpoint3dcourbekrig6
+DEF GEOpoint3dcourbekrig7 POINT3DCOURBEKRIG {
+	Nom       "6"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre     -9.965217  -6.581719 1459.814193
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -10.093280  -7.794231 1462.515914
+	T         0.622049
+	Tangente     -0.1289     3.2961  -170.4823     0.0000
+}
+USE GEOpoint3dcourbekrig7
+DEF GEOpoint3dcourbekrig8 POINT3DCOURBEKRIG {
+	Nom       "7"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -10.319076  -5.245621 1432.553082
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase   -9.535333  -5.580028 1431.916059
+	T         0.783594
+	Tangente    -10.2574     3.3785  -166.4304     0.0000
+}
+USE GEOpoint3dcourbekrig8
+DEF GEOpoint3dcourbekrig9 POINT3DCOURBEKRIG {
+	Nom       "8"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre     -9.358728  -5.887577 1423.268216
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -10.300870  -5.111522 1426.624442
+	T         0.836983
+	Tangente    -51.1703    14.3475  -160.1465     0.0000
+}
+USE GEOpoint3dcourbekrig9
+DEF GEOpoint3dcourbekrig10 POINT3DCOURBEKRIG {
+	Nom       "9"
+	Espace    "Recons"
+	Centre    -18.596115  -4.563512 1397.304953
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -19.897736  -3.658955 1398.432377
+	T         1
+	Tangente    -74.2749     0.9465  -153.5063     0.0000
+}
+USE GEOpoint3dcourbekrig10
+USE GEOgroupe110
+DEF GEOgroupe111 GROUPE {
+	Groupe    "PlatSupG"
+	Espace    "Recons"
+}
+DEF GEOpoint3detat3 POINT3DETAT {
+	Nom       "Vertebre_L1"
+	Espace    "Recons"
+	Centre    -39.611395  24.177142 1558.403877
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -40.461172  23.321237 1557.904018
+}
+USE GEOpoint3detat3
+DEF GEOpoint3detat4 POINT3DETAT {
+	Nom       "Vertebre_L2"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -26.917363  19.553980 1526.097865
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -30.146005  13.813484 1526.211449
+}
+USE GEOpoint3detat4
+DEF GEOpoint3detat5 POINT3DETAT {
+	Nom       "Vertebre_L3"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -16.710354  17.297674 1494.343115
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -18.332705  10.123322 1495.867606
+}
+USE GEOpoint3detat5
+DEF GEOpoint3detat6 POINT3DETAT {
+	Nom       "Vertebre_L4"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -13.704927  19.920440 1460.329413
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -10.093280  11.893900 1463.422093
+}
+USE GEOpoint3detat6
+DEF GEOpoint3detat7 POINT3DETAT {
+	Nom       "Vertebre_L5"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre     -7.456056  15.332957 1424.561421
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -10.300870  16.990873 1428.578897
+}
+USE GEOpoint3detat7
+USE GEOgroupe111
+DEF GEOgroupe112 GROUPE {
+	Groupe    "PlatSupD"
+	Espace    "Recons"
+}
+DEF GEOpoint3detat8 POINT3DETAT {
+	Nom       "Vertebre_L1"
+	Espace    "Recons"
+	Centre    -39.514930 -21.190250 1561.242527
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -40.461172 -20.850976 1561.563023
+}
+USE GEOpoint3detat8
+DEF GEOpoint3detat9 POINT3DETAT {
+	Nom       "Vertebre_L2"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -28.291167 -25.783193 1530.889997
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -30.146005 -20.919991 1532.246436
+}
+USE GEOpoint3detat9
+DEF GEOpoint3detat10 POINT3DETAT {
+	Nom       "Vertebre_L3"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -15.309933 -27.826737 1497.453334
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -18.332705 -25.311474 1498.223388
+}
+USE GEOpoint3detat10
+DEF GEOpoint3detat11 POINT3DETAT {
+	Nom       "Vertebre_L4"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre     -6.225507 -33.083879 1459.298974
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -10.093280 -27.482362 1461.609734
+}
+USE GEOpoint3detat11
+DEF GEOpoint3detat12 POINT3DETAT {
+	Nom       "Vertebre_L5"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -11.261400 -27.108111 1421.975011
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -10.300870 -27.213918 1424.669988
+}
+USE GEOpoint3detat12
+USE GEOgroupe112
+DEF GEOgroupe113 GROUPE {
+	Groupe    "PlatInfG"
+	Espace    "Recons"
+}
+DEF GEOpoint3detat13 POINT3DETAT {
+	Nom       "Vertebre_L1"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -30.179093  18.607204 1534.106231
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -32.126500  17.881022 1530.639333
+}
+USE GEOpoint3detat13
+DEF GEOpoint3detat14 POINT3DETAT {
+	Nom       "Vertebre_L2"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -16.939209  17.631125 1499.025370
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -19.765054  13.735562 1499.580412
+}
+USE GEOpoint3detat14
+DEF GEOpoint3detat15 POINT3DETAT {
+	Nom       "Vertebre_L3"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -12.750079  17.938866 1466.099267
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -10.731556  14.424381 1467.532100
+}
+USE GEOpoint3detat15
+DEF GEOpoint3detat16 POINT3DETAT {
+	Nom       "Vertebre_L4"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -14.119294  21.869341 1433.337716
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase   -9.535333  16.690488 1433.876354
+}
+USE GEOpoint3detat16
+DEF GEOpoint3detat17 POINT3DETAT {
+	Nom       "Vertebre_L5"
+	Espace    "Recons"
+	Centre    -16.731791  23.890939 1396.578330
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -19.897736  23.863037 1397.804607
+}
+USE GEOpoint3detat17
+USE GEOgroupe113
+DEF GEOgroupe114 GROUPE {
+	Groupe    "PlatInfD"
+	Espace    "Recons"
+}
+DEF GEOpoint3detat18 POINT3DETAT {
+	Nom       "Vertebre_L1"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -30.065697 -24.284561 1536.667190
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -32.126500 -23.139131 1538.147552
+}
+USE GEOpoint3detat18
+DEF GEOpoint3detat19 POINT3DETAT {
+	Nom       "Vertebre_L2"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -18.278840 -26.567556 1504.138399
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -19.765054 -28.274907 1503.119478
+}
+USE GEOpoint3detat19
+DEF GEOpoint3detat20 POINT3DETAT {
+	Nom       "Vertebre_L3"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -11.351932 -30.961760 1467.986726
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -10.731556 -30.356564 1465.963754
+}
+USE GEOpoint3detat20
+DEF GEOpoint3detat21 POINT3DETAT {
+	Nom       "Vertebre_L4"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre     -6.518859 -32.360583 1431.768448
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase   -9.535333 -27.850544 1429.955764
+}
+USE GEOpoint3detat21
+DEF GEOpoint3detat22 POINT3DETAT {
+	Nom       "Vertebre_L5"
+	Espace    "Recons"
+	Centre    -20.460439 -33.017964 1398.031575
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -19.897736 -31.180946 1399.060148
+}
+USE GEOpoint3detat22
+USE GEOgroupe114
+DEF GEOgroupe115 GROUPE {
+	Groupe    "PlatSupAnt"
+	Espace    "Recons"
+}
+DEF GEOpoint3detat23 POINT3DETAT {
+	Nom       "Vertebre_L1"
+	Espace    "Recons"
+	Centre    -23.106936   1.845340 1564.887956
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase  -25.802529   1.536219 1563.368317
+}
+USE GEOpoint3detat23
+DEF GEOpoint3detat24 POINT3DETAT {
+	Nom       "Vertebre_L2"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -10.700152  -2.896076 1535.407449
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase  -16.142179  -2.642959 1534.468012
+}
+USE GEOpoint3detat24
+DEF GEOpoint3detat25 POINT3DETAT {
+	Nom       "Vertebre_L3"
+	Flags     [ 0 0 1 1 ]
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre      1.580410  -4.509070 1498.938386
+	Rayon     0.6
+	EtatCtrl  3872
+	CtrlBase   -3.427607  -7.273966 1501.860467
+}
+USE GEOpoint3detat25
+DEF GEOpoint3detat26 POINT3DETAT {
+	Nom       "Vertebre_L4"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre      8.796386  -3.934996 1459.851185
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase    6.221963  -7.896637 1464.740837
+}
+USE GEOpoint3detat26
+DEF GEOpoint3detat27 POINT3DETAT {
+	Nom       "Vertebre_L5"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre      8.730179  -7.150339 1417.375284
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase    5.868765  -4.866410 1423.852537
+}
+USE GEOpoint3detat27
+USE GEOgroupe115
+DEF GEOgroupe116 GROUPE {
+	Groupe    "PlatSupPost"
+	Espace    "Recons"
+}
+DEF GEOpoint3detat28 POINT3DETAT {
+	Nom       "Vertebre_L1"
+	Espace    "Recons"
+	Centre    -56.019388   1.141552 1554.758449
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase  -55.119816   0.934042 1556.098725
+}
+USE GEOpoint3detat28
+DEF GEOpoint3detat29 POINT3DETAT {
+	Nom       "Vertebre_L2"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -44.508379  -3.333137 1521.580413
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase  -44.149831  -4.463549 1523.989873
+}
+USE GEOpoint3detat29
+DEF GEOpoint3detat30 POINT3DETAT {
+	Nom       "Vertebre_L3"
+	Flags     [ 0 0 1 1 ]
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -33.600697  -6.019994 1492.858063
+	Rayon     0.6
+	EtatCtrl  3872
+	CtrlBase  -33.237803  -7.914185 1492.230527
+}
+USE GEOpoint3detat30
+DEF GEOpoint3detat31 POINT3DETAT {
+	Nom       "Vertebre_L4"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -28.726820  -9.228443 1459.777202
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase  -26.408522  -7.691825 1460.290991
+}
+USE GEOpoint3detat31
+DEF GEOpoint3detat32 POINT3DETAT {
+	Nom       "Vertebre_L5"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -27.447635  -4.624814 1429.161148
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase  -26.470505  -5.356634 1429.396348
+}
+USE GEOpoint3detat32
+USE GEOgroupe116
+DEF GEOgroupe117 GROUPE {
+	Groupe    "PlatInfAnt"
+	Espace    "Recons"
+}
+DEF GEOpoint3detat33 POINT3DETAT {
+	Nom       "Vertebre_L1"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -11.922870  -2.398768 1541.948618
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase  -18.239157  -1.693168 1539.506538
+}
+USE GEOpoint3detat33
+DEF GEOpoint3detat34 POINT3DETAT {
+	Nom       "Vertebre_L2"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre     -0.365777  -4.390360 1506.772684
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase   -6.167596  -6.882136 1505.950191
+}
+USE GEOpoint3detat34
+DEF GEOpoint3detat35 POINT3DETAT {
+	Nom       "Vertebre_L3"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre      6.429923  -5.857081 1470.306576
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase    6.150719  -8.063386 1469.525963
+}
+USE GEOpoint3detat35
+DEF GEOpoint3detat36 POINT3DETAT {
+	Nom       "Vertebre_L4"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre      7.802482  -2.675038 1431.488405
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase    7.439374  -5.406389 1429.943377
+}
+USE GEOpoint3detat36
+DEF GEOpoint3detat37 POINT3DETAT {
+	Nom       "Vertebre_L5"
+	Espace    "Recons"
+	Centre     -2.530229  -5.814848 1389.523671
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase   -4.408059  -3.846655 1390.203425
+}
+USE GEOpoint3detat37
+USE GEOgroupe117
+DEF GEOgroupe118 GROUPE {
+	Groupe    "PlatInfPost"
+	Espace    "Recons"
+}
+DEF GEOpoint3detat38 POINT3DETAT {
+	Nom       "Vertebre_L1"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -48.321919  -3.278589 1528.824803
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase  -46.013843  -3.564942 1529.280347
+}
+USE GEOpoint3detat38
+DEF GEOpoint3detat39 POINT3DETAT {
+	Nom       "Vertebre_L2"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -34.852272  -4.546071 1496.391085
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase  -33.362512  -7.657208 1496.749699
+}
+USE GEOpoint3detat39
+DEF GEOpoint3detat40 POINT3DETAT {
+	Nom       "Vertebre_L3"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -30.531934  -7.165814 1463.779417
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase  -27.613830  -7.868798 1463.969892
+}
+USE GEOpoint3detat40
+DEF GEOpoint3detat41 POINT3DETAT {
+	Nom       "Vertebre_L4"
+	Couleur   [ 0 0 1 ]
+	Espace    "Recons"
+	Centre    -28.440635  -7.816203 1433.617759
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase  -26.510041  -5.753667 1433.888742
+}
+USE GEOpoint3detat41
+DEF GEOpoint3detat42 POINT3DETAT {
+	Nom       "Vertebre_L5"
+	Espace    "Recons"
+	Centre    -34.662001  -3.312177 1405.086234
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase  -35.387413  -3.471254 1406.661329
+}
+USE GEOpoint3detat42
+USE GEOgroupe118
+DEF GEOgroupe119 GROUPE {
+	Groupe    "Epineuses"
+	Espace    "Recons"
+}
+DEF GEOpoint3detat43 POINT3DETAT {
+	Nom       "Vertebre_L1"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -97.111011  -2.105101 1523.252329
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -90.788376  -8.149372 1520.587330
+}
+USE GEOpoint3detat43
+DEF GEOpoint3detat44 POINT3DETAT {
+	Nom       "Vertebre_L2"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -87.587017  -4.683602 1491.654505
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -78.832691  -6.009913 1484.258651
+}
+USE GEOpoint3detat44
+DEF GEOpoint3detat45 POINT3DETAT {
+	Nom       "Vertebre_L3"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -82.987739  -4.497798 1462.620539
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -69.332084  -8.473215 1453.216309
+}
+USE GEOpoint3detat45
+DEF GEOpoint3detat46 POINT3DETAT {
+	Nom       "Vertebre_L4"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -76.174665  -2.428174 1438.156468
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -70.802943  -1.368318 1433.633151
+}
+USE GEOpoint3detat46
+DEF GEOpoint3detat47 POINT3DETAT {
+	Nom       "Vertebre_L5"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -73.330589  -3.404377 1415.262901
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -81.640766  -4.441757 1434.145487
+}
+USE GEOpoint3detat47
+USE GEOgroupe119
+DEF GEOgroupe120 GROUPE {
+	Groupe    "TransversesD"
+	Espace    "Recons"
+}
+DEF GEOpoint3detat48 POINT3DETAT {
+	Nom       "Vertebre_L1"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -69.643467 -37.274038 1542.275141
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -68.520639 -35.204542 1547.288039
+}
+USE GEOpoint3detat48
+DEF GEOpoint3detat49 POINT3DETAT {
+	Nom       "Vertebre_L2"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -65.905529 -41.357067 1512.090669
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -58.717593 -38.401465 1513.898538
+}
+USE GEOpoint3detat49
+DEF GEOpoint3detat50 POINT3DETAT {
+	Nom       "Vertebre_L3"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -49.240830 -47.591987 1481.884839
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -48.550183 -42.503032 1479.316538
+}
+USE GEOpoint3detat50
+DEF GEOpoint3detat51 POINT3DETAT {
+	Nom       "Vertebre_L4"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -51.603771 -42.759772 1449.661936
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -42.216416 -46.307860 1450.365415
+}
+USE GEOpoint3detat51
+DEF GEOpoint3detat52 POINT3DETAT {
+	Nom       "Vertebre_L5"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -44.663534 -45.988132 1419.589674
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -43.577049 -48.199185 1423.378688
+}
+USE GEOpoint3detat52
+USE GEOgroupe120
+DEF GEOgroupe121 GROUPE {
+	Groupe    "TransversesG"
+	Espace    "Recons"
+}
+DEF GEOpoint3detat53 POINT3DETAT {
+	Nom       "Vertebre_L1"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -68.553555  37.570027 1540.150806
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -69.928785  30.699447 1535.477989
+}
+USE GEOpoint3detat53
+DEF GEOpoint3detat54 POINT3DETAT {
+	Nom       "Vertebre_L2"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -57.489088  32.102894 1506.201738
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -57.128359  26.167597 1502.994330
+}
+USE GEOpoint3detat54
+DEF GEOpoint3detat55 POINT3DETAT {
+	Nom       "Vertebre_L3"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -45.122119  35.747685 1480.925418
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -46.552661  27.567428 1477.324274
+}
+USE GEOpoint3detat55
+DEF GEOpoint3detat56 POINT3DETAT {
+	Nom       "Vertebre_L4"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -54.866829  33.937113 1449.212002
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -34.742198  29.321448 1464.166731
+}
+USE GEOpoint3detat56
+DEF GEOpoint3detat57 POINT3DETAT {
+	Nom       "Vertebre_L5"
+	Couleur   [ 0.772549 0 0.403922 ]
+	Espace    "Recons"
+	Centre    -50.938994  40.276520 1420.245068
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -46.797783  41.719788 1431.059657
+}
+USE GEOpoint3detat57
+USE GEOgroupe121
+DEF GEOgroupe122 GROUPE {
+	Groupe    "FacettesInfD"
+	Espace    "Recons"
+}
+DEF GEOpoint3detat58 POINT3DETAT {
+	Nom       "Vertebre_L1"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -67.633282 -13.560058 1517.341077
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -64.284443 -17.524265 1524.327813
+}
+USE GEOpoint3detat58
+DEF GEOpoint3detat59 POINT3DETAT {
+	Nom       "Vertebre_L2"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -57.531534 -20.101308 1490.838458
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -50.673536 -22.238959 1485.382083
+}
+USE GEOpoint3detat59
+DEF GEOpoint3detat60 POINT3DETAT {
+	Nom       "Vertebre_L3"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -50.066488 -21.688040 1455.546914
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -41.938410 -20.028665 1452.041416
+}
+USE GEOpoint3detat60
+DEF GEOpoint3detat61 POINT3DETAT {
+	Nom       "Vertebre_L4"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -48.132429 -23.041446 1429.492909
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -41.470654 -19.395694 1426.610766
+}
+USE GEOpoint3detat61
+DEF GEOpoint3detat62 POINT3DETAT {
+	Nom       "Vertebre_L5"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -49.861407 -26.084140 1405.676210
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -52.492608 -25.788105 1412.156998
+}
+USE GEOpoint3detat62
+USE GEOgroupe122
+DEF GEOgroupe123 GROUPE {
+	Groupe    "FacettesInfG"
+	Espace    "Recons"
+}
+DEF GEOpoint3detat63 POINT3DETAT {
+	Nom       "Vertebre_L1"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -66.781471   9.570612 1518.218074
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -65.189647   5.818080 1514.570085
+}
+USE GEOpoint3detat63
+DEF GEOpoint3detat64 POINT3DETAT {
+	Nom       "Vertebre_L2"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -61.938191  10.654887 1490.336726
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -49.250336   3.441566 1484.334882
+}
+USE GEOpoint3detat64
+DEF GEOpoint3detat65 POINT3DETAT {
+	Nom       "Vertebre_L3"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -48.814692  12.810807 1457.209529
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -40.311046   3.731280 1450.850395
+}
+USE GEOpoint3detat65
+DEF GEOpoint3detat66 POINT3DETAT {
+	Nom       "Vertebre_L4"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -50.019268  17.404574 1427.645009
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -38.708233  11.875902 1433.764933
+}
+USE GEOpoint3detat66
+DEF GEOpoint3detat67 POINT3DETAT {
+	Nom       "Vertebre_L5"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -53.228019  20.288997 1406.401986
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -52.439847  17.464082 1416.428350
+}
+USE GEOpoint3detat67
+USE GEOgroupe123
+DEF GEOgroupe124 GROUPE {
+	Groupe    "FacettesSupD"
+	Espace    "Recons"
+}
+DEF GEOpoint3detat68 POINT3DETAT {
+	Nom       "Vertebre_L1"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -73.835100 -12.638986 1553.811857
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase  -73.500955 -12.262318 1554.363717
+}
+USE GEOpoint3detat68
+DEF GEOpoint3detat69 POINT3DETAT {
+	Nom       "Vertebre_L2"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -65.424152 -15.644133 1521.425599
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase  -63.079649 -16.404183 1518.955264
+}
+USE GEOpoint3detat69
+DEF GEOpoint3detat70 POINT3DETAT {
+	Nom       "Vertebre_L3"
+	Flags     [ 0 0 1 1 ]
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -51.558340 -20.585668 1492.142372
+	Rayon     0.6
+	EtatCtrl  3872
+	CtrlBase  -51.352698 -20.647983 1488.408733
+}
+USE GEOpoint3detat70
+DEF GEOpoint3detat71 POINT3DETAT {
+	Nom       "Vertebre_L4"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -47.514560 -23.572052 1458.179240
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -43.109638 -21.500919 1459.672897
+}
+USE GEOpoint3detat71
+DEF GEOpoint3detat72 POINT3DETAT {
+	Nom       "Vertebre_L5"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -48.358483 -22.018713 1430.841001
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -44.912016 -20.820730 1433.466106
+}
+USE GEOpoint3detat72
+USE GEOgroupe124
+DEF GEOgroupe125 GROUPE {
+	Groupe    "FacettesSupG"
+	Espace    "Recons"
+}
+DEF GEOpoint3detat73 POINT3DETAT {
+	Nom       "Vertebre_L1"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -78.438387  13.791017 1554.225123
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase  -73.596476  12.324166 1549.352015
+}
+USE GEOpoint3detat73
+DEF GEOpoint3detat74 POINT3DETAT {
+	Nom       "Vertebre_L2"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -68.163882  11.833624 1520.300864
+	Rayon     0.6
+	EtatCtrl  3876
+	CtrlBase  -62.773599   8.169659 1515.697751
+}
+USE GEOpoint3detat74
+DEF GEOpoint3detat75 POINT3DETAT {
+	Nom       "Vertebre_L3"
+	Flags     [ 0 0 1 1 ]
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -51.207461   6.872499 1490.602886
+	Rayon     0.6
+	EtatCtrl  3872
+	CtrlBase  -50.618186   4.127328 1487.948044
+}
+USE GEOpoint3detat75
+DEF GEOpoint3detat76 POINT3DETAT {
+	Nom       "Vertebre_L4"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -51.832301   7.270691 1459.562211
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -41.218365   6.332085 1463.122822
+}
+USE GEOpoint3detat76
+DEF GEOpoint3detat77 POINT3DETAT {
+	Nom       "Vertebre_L5"
+	Couleur   [ 1 0.6 0.6 ]
+	Espace    "Recons"
+	Centre    -50.058661  14.100200 1430.428977
+	Rayon     0.6
+	EtatCtrl  3880
+	CtrlBase  -44.560993  10.279586 1437.844078
+}
+USE GEOpoint3detat77
+USE GEOgroupe125
+DEF GEOgroupe126 GROUPE {
+	Groupe    "PedD"
+	Espace    "Recons"
+}
+DEF GEOpoint3detat78 POINT3DETAT {
+	Nom       "Vertebre_L1"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -58.010891 -15.167743 1544.556468
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -57.043142 -16.575977 1547.592128
+}
+USE GEOpoint3detat78
+DEF GEOpoint3detat79 POINT3DETAT {
+	Nom       "Vertebre_L2"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -46.389872 -18.525216 1515.722808
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -46.616692 -19.735524 1515.140424
+}
+USE GEOpoint3detat79
+DEF GEOpoint3detat80 POINT3DETAT {
+	Nom       "Vertebre_L3"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -35.185266 -22.215258 1483.119803
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -35.295354 -23.304178 1481.746446
+}
+USE GEOpoint3detat80
+DEF GEOpoint3detat81 POINT3DETAT {
+	Nom       "Vertebre_L4"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -27.457284 -21.070551 1449.095782
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -27.594499 -24.014569 1450.257770
+}
+USE GEOpoint3detat81
+DEF GEOpoint3detat82 POINT3DETAT {
+	Nom       "Vertebre_L5"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -31.789249 -23.869265 1415.478944
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -29.910873 -23.978327 1420.665705
+}
+USE GEOpoint3detat82
+USE GEOgroupe126
+DEF GEOgroupe127 GROUPE {
+	Groupe    "PedG"
+	Espace    "Recons"
+}
+DEF GEOpoint3detat83 POINT3DETAT {
+	Nom       "Vertebre_L1"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -57.982575  13.198040 1542.044821
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -58.497603  14.553247 1542.411336
+}
+USE GEOpoint3detat83
+DEF GEOpoint3detat84 POINT3DETAT {
+	Nom       "Vertebre_L2"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -44.449847  12.343568 1513.770712
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -44.466099   8.446597 1511.942722
+}
+USE GEOpoint3detat84
+DEF GEOpoint3detat85 POINT3DETAT {
+	Nom       "Vertebre_L3"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -34.933703   9.459950 1482.635805
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -33.744349   7.742967 1481.962042
+}
+USE GEOpoint3detat85
+DEF GEOpoint3detat86 POINT3DETAT {
+	Nom       "Vertebre_L4"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -29.618152   6.106688 1445.678222
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -24.439224   9.918668 1454.147149
+}
+USE GEOpoint3detat86
+DEF GEOpoint3detat87 POINT3DETAT {
+	Nom       "Vertebre_L5"
+	Couleur   [ 1 0.803922 0.0235294 ]
+	Espace    "Recons"
+	Centre    -29.818331  15.801424 1414.740833
+	Rayon     0.6
+	EtatCtrl  3874
+	CtrlBase  -31.143737  14.179677 1424.346334
+}
+USE GEOpoint3detat87
+USE GEOgroupe127
+DEF GEOgroupe128 GROUPE {
+	Groupe    "PedSupG"
+	Espace    "Recons"
+}
+DEF GEOpoint3d141 POINT3D {
+	Nom       "Vertebre_L1"
+	Espace    "Recons"
+	Centre    -23.109591  16.100029  12.358192
+	Rayon     2 2 2 
+}
+USE GEOpoint3d141
+DEF GEOpoint3d142 POINT3D {
+	Nom       "Vertebre_L2"
+	Espace    "Recons"
+	Centre    -21.293053  15.766663  12.677190
+	Rayon     2 2 2 
+}
+USE GEOpoint3d142
+DEF GEOpoint3d143 POINT3D {
+	Nom       "Vertebre_L3"
+	Espace    "Recons"
+	Centre    -20.588758  16.939311  11.717308
+	Rayon     2 2 2 
+}
+USE GEOpoint3d143
+DEF GEOpoint3d144 POINT3D {
+	Nom       "Vertebre_L4"
+	Espace    "Recons"
+	Centre    -19.509845  19.118528  12.385473
+	Rayon     2 2 2 
+}
+USE GEOpoint3d144
+DEF GEOpoint3d145 POINT3D {
+	Nom       "Vertebre_L5"
+	Espace    "Recons"
+	Centre    -18.668698  22.119307   9.243698
+	Rayon     2 2 2 
+}
+USE GEOpoint3d145
+USE GEOgroupe128
+DEF GEOgroupe129 GROUPE {
+	Groupe    "PedSupD"
+	Espace    "Recons"
+}
+DEF GEOpoint3d146 POINT3D {
+	Nom       "Vertebre_L1"
+	Espace    "Recons"
+	Centre    -23.856388 -15.670673  11.854457
+	Rayon     2 2 2 
+}
+USE GEOpoint3d146
+DEF GEOpoint3d147 POINT3D {
+	Nom       "Vertebre_L2"
+	Espace    "Recons"
+	Centre    -22.767356 -15.269967  13.482100
+	Rayon     2 2 2 
+}
+USE GEOpoint3d147
+DEF GEOpoint3d148 POINT3D {
+	Nom       "Vertebre_L3"
+	Espace    "Recons"
+	Centre    -21.675010 -16.495732  11.627335
+	Rayon     2 2 2 
+}
+USE GEOpoint3d148
+DEF GEOpoint3d149 POINT3D {
+	Nom       "Vertebre_L4"
+	Espace    "Recons"
+	Centre    -20.748696 -18.632218  11.406796
+	Rayon     2 2 2 
+}
+USE GEOpoint3d149
+DEF GEOpoint3d150 POINT3D {
+	Nom       "Vertebre_L5"
+	Espace    "Recons"
+	Centre    -19.847827 -20.537629   9.317986
+	Rayon     2 2 2 
+}
+USE GEOpoint3d150
+USE GEOgroupe129
+DEF GEOgroupe130 GROUPE {
+	Groupe    "PedInfG"
+	Espace    "Recons"
+}
+DEF GEOpoint3d151 POINT3D {
+	Nom       "Vertebre_L1"
+	Espace    "Recons"
+	Centre    -23.703763  15.522380  -4.062277
+	Rayon     2 2 2 
+}
+USE GEOpoint3d151
+DEF GEOpoint3d152 POINT3D {
+	Nom       "Vertebre_L2"
+	Espace    "Recons"
+	Centre    -21.458094  15.869573  -2.899115
+	Rayon     2 2 2 
+}
+USE GEOpoint3d152
+DEF GEOpoint3d153 POINT3D {
+	Nom       "Vertebre_L3"
+	Espace    "Recons"
+	Centre    -19.983563  17.114690  -2.961035
+	Rayon     2 2 2 
+}
+USE GEOpoint3d153
+DEF GEOpoint3d154 POINT3D {
+	Nom       "Vertebre_L4"
+	Espace    "Recons"
+	Centre    -16.473266  18.913854  -0.295073
+	Rayon     2 2 2 
+}
+USE GEOpoint3d154
+DEF GEOpoint3d155 POINT3D {
+	Nom       "Vertebre_L5"
+	Espace    "Recons"
+	Centre    -18.611533  18.477724   1.597220
+	Rayon     2 2 2 
+}
+USE GEOpoint3d155
+USE GEOgroupe130
+DEF GEOgroupe131 GROUPE {
+	Groupe    "PedInfD"
+	Espace    "Recons"
+}
+DEF GEOpoint3d156 POINT3D {
+	Nom       "Vertebre_L1"
+	Espace    "Recons"
+	Centre    -23.107855 -16.355515  -4.110163
+	Rayon     2 2 2 
+}
+USE GEOpoint3d156
+DEF GEOpoint3d157 POINT3D {
+	Nom       "Vertebre_L2"
+	Espace    "Recons"
+	Centre    -21.411892 -16.235089  -2.855060
+	Rayon     2 2 2 
+}
+USE GEOpoint3d157
+DEF GEOpoint3d158 POINT3D {
+	Nom       "Vertebre_L3"
+	Espace    "Recons"
+	Centre    -20.432323 -17.073932  -3.402424
+	Rayon     2 2 2 
+}
+USE GEOpoint3d158
+DEF GEOpoint3d159 POINT3D {
+	Nom       "Vertebre_L4"
+	Espace    "Recons"
+	Centre    -17.739044 -18.991043  -1.466592
+	Rayon     2 2 2 
+}
+USE GEOpoint3d159
+DEF GEOpoint3d160 POINT3D {
+	Nom       "Vertebre_L5"
+	Espace    "Recons"
+	Centre    -15.224349 -21.358702   0.733374
+	Rayon     2 2 2 
+}
+USE GEOpoint3d160
+USE GEOgroupe131
+DEF GEOgroupe132 GROUPE {
+	Groupe    "PedGExt"
+	Espace    "Recons"
+}
+DEF GEOpoint3d161 POINT3D {
+	Nom       "Vertebre_L1"
+	Espace    "Recons"
+	Centre    -21.966614  18.873467   4.142159
+	Rayon     2 2 2 
+}
+USE GEOpoint3d161
+DEF GEOpoint3d162 POINT3D {
+	Nom       "Vertebre_L2"
+	Espace    "Recons"
+	Centre    -19.697651  19.586381   5.237554
+	Rayon     2 2 2 
+}
+USE GEOpoint3d162
+DEF GEOpoint3d163 POINT3D {
+	Nom       "Vertebre_L3"
+	Espace    "Recons"
+	Centre    -17.791929  22.064910   4.917870
+	Rayon     2 2 2 
+}
+USE GEOpoint3d163
+DEF GEOpoint3d164 POINT3D {
+	Nom       "Vertebre_L4"
+	Espace    "Recons"
+	Centre    -15.314085  25.188656   5.032790
+	Rayon     2 2 2 
+}
+USE GEOpoint3d164
+DEF GEOpoint3d165 POINT3D {
+	Nom       "Vertebre_L5"
+	Espace    "Recons"
+	Centre    -13.737690  26.544882   3.765082
+	Rayon     2 2 2 
+}
+USE GEOpoint3d165
+USE GEOgroupe132
+DEF GEOgroupe133 GROUPE {
+	Groupe    "PedDExt"
+	Espace    "Recons"
+}
+DEF GEOpoint3d166 POINT3D {
+	Nom       "Vertebre_L1"
+	Espace    "Recons"
+	Centre    -22.480550 -17.849458   3.096974
+	Rayon     2 2 2 
+}
+USE GEOpoint3d166
+DEF GEOpoint3d167 POINT3D {
+	Nom       "Vertebre_L2"
+	Espace    "Recons"
+	Centre    -20.402759 -19.311945   4.502583
+	Rayon     2 2 2 
+}
+USE GEOpoint3d167
+DEF GEOpoint3d168 POINT3D {
+	Nom       "Vertebre_L3"
+	Espace    "Recons"
+	Centre    -20.710832 -22.598746   4.190901
+	Rayon     2 2 2 
+}
+USE GEOpoint3d168
+DEF GEOpoint3d169 POINT3D {
+	Nom       "Vertebre_L4"
+	Espace    "Recons"
+	Centre    -17.558748 -25.066221   4.331754
+	Rayon     2 2 2 
+}
+USE GEOpoint3d169
+DEF GEOpoint3d170 POINT3D {
+	Nom       "Vertebre_L5"
+	Espace    "Recons"
+	Centre    -13.495784 -24.991226   3.869691
+	Rayon     2 2 2 
+}
+USE GEOpoint3d170
+USE GEOgroupe133
+DEF GEOgroupe134 GROUPE {
+	Groupe    "PedGInt"
+	Espace    "Recons"
+}
+DEF GEOpoint3d171 POINT3D {
+	Nom       "Vertebre_L1"
+	Espace    "Recons"
+	Centre    -23.131819  12.184913   5.057582
+	Rayon     2 2 2 
+}
+USE GEOpoint3d171
+DEF GEOpoint3d172 POINT3D {
+	Nom       "Vertebre_L2"
+	Espace    "Recons"
+	Centre    -22.145598  11.138418   6.453706
+	Rayon     2 2 2 
+}
+USE GEOpoint3d172
+DEF GEOpoint3d173 POINT3D {
+	Nom       "Vertebre_L3"
+	Espace    "Recons"
+	Centre    -21.641228  11.068726   5.714680
+	Rayon     2 2 2 
+}
+USE GEOpoint3d173
+DEF GEOpoint3d174 POINT3D {
+	Nom       "Vertebre_L4"
+	Espace    "Recons"
+	Centre    -19.273731  12.340666   6.530076
+	Rayon     2 2 2 
+}
+USE GEOpoint3d174
+DEF GEOpoint3d175 POINT3D {
+	Nom       "Vertebre_L5"
+	Espace    "Recons"
+	Centre    -20.084842  14.786379   7.365795
+	Rayon     2 2 2 
+}
+USE GEOpoint3d175
+USE GEOgroupe134
+DEF GEOgroupe135 GROUPE {
+	Groupe    "PedDInt"
+	Espace    "Recons"
+}
+DEF GEOpoint3d176 POINT3D {
+	Nom       "Vertebre_L1"
+	Espace    "Recons"
+	Centre    -24.015699 -12.805142   4.691327
+	Rayon     2 2 2 
+}
+USE GEOpoint3d176
+DEF GEOpoint3d177 POINT3D {
+	Nom       "Vertebre_L2"
+	Espace    "Recons"
+	Centre    -22.742637 -11.544034   6.578376
+	Rayon     2 2 2 
+}
+USE GEOpoint3d177
+DEF GEOpoint3d178 POINT3D {
+	Nom       "Vertebre_L3"
+	Espace    "Recons"
+	Centre    -22.402400 -11.019226   5.250423
+	Rayon     2 2 2 
+}
+USE GEOpoint3d178
+DEF GEOpoint3d179 POINT3D {
+	Nom       "Vertebre_L4"
+	Espace    "Recons"
+	Centre    -20.935050 -12.872220   6.007729
+	Rayon     2 2 2 
+}
+USE GEOpoint3d179
+DEF GEOpoint3d180 POINT3D {
+	Nom       "Vertebre_L5"
+	Espace    "Recons"
+	Centre    -20.382576 -15.040736   4.922978
+	Rayon     2 2 2 
+}
+USE GEOpoint3d180
+USE GEOgroupe135
+USE GEOaxactioncolonne1
+USE GEOgroupe109
+] } ] }
+
+Transform { translation 165 4 -0.001
+	scale		0.01 0.01 0.01
+	rotation	0 0 1 -1.5708
+	children
+[
+DEF espace18 ESPACE { Nom "PA-0" }
+DEF image9 IMAGE {
+	ImageFile "07-16-20_16h18m53_CPP06036_MarcheMain_109_CorpsEntier_face.dcm"
+	Nom       "Originale"
+	ImagePic  "c:\users\visiteur\desktop\data\07-16-20_16h18m53_cpp06036_marchemain_109_corpsentier_face.dcm"
+	Points    [ 0.0 0.0 0.0
+				9839 0.0 0.0
+				9839 1896 0.0
+				0.0 1896 0.0 ]
+	FlipGD      FALSE
+	FlipHB      FALSE
+	Negatif     FALSE
+	Affichable  TRUE
+	Effacable   FALSE
+	Type      "UNSIGNED SHORT"
+}
+USE image10
+
+] }
+
+Transform { translation 185 4 -0.001
+	scale		0.01 0.01 0.01
+	rotation	0 0 1 -1.5708
+	children
+[
+DEF espace20 ESPACE { Nom "LAT" }
+DEF image10 IMAGE {
+	ImageFile "07-16-20_16h18m54_CPP06036_MarcheMain_109_CorpsEntier_profil.dcm"
+	Nom       "Originale"
+	ImagePic  "c:\users\visiteur\desktop\data\07-16-20_16h18m54_cpp06036_marchemain_109_corpsentier_profil.dcm"
+	Points    [ 0.0 0.0 0.0
+				9839 0.0 0.0
+				9839 1764 0.0
+				0.0 1764 0.0 ]
+	FlipGD      FALSE
+	FlipHB      FALSE
+	Negatif     FALSE
+	Affichable  TRUE
+	Effacable   FALSE
+	Type      "UNSIGNED SHORT"
+}
+USE image11
+
+] }
+
+DEF config CONFIG { Config "\\pa-nas-21\IBHGC$\IDEFX\Fichiers\Cabine_EOS.cfg"}
+DEF envConfig CONFIG { EnvConfig
+	CalEOS	"calib_bi_plan_LBM.cal"
+	Colonne	"GENX: TL003"
+	User	"Herve"
+	CalibSolDicom	"yes"
+	EnvFrontal	"AP"
+	EnvSagittal	"LATG"
+}
+<MULTIVUE VueCourante="0">
+	<MVGROUPE ID="Prims3D" Primitive="Bassin">
+		<TRANSFORMATIONS Vue="0">
+			<MATRICE4>
+				1.0000000000   0.0000000000   0.0000000000   4.0000000000    
+				0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+				0.0000000000   0.0000000000   1.0000000000   1393.3922769770 
+				0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+			</MATRICE4>
+		</TRANSFORMATIONS>
+		<MVPOSITION ID="Prims3D" Primitive="Cotyle_G">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+		<MVPOSITION ID="Prims3D" Primitive="Cotyle_D">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+		<MVPOSITION ID="Prims3D" Primitive="SacroIliaqueInf">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+	</MVGROUPE>
+	<MVGROUPE ID="Prims3D" Primitive="Coude_G">
+		<TRANSFORMATIONS Vue="0">
+			<MATRICE4>
+				1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+				0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+				0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+				0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+			</MATRICE4>
+		</TRANSFORMATIONS>
+		<MVPOSITION ID="Prims3D" Primitive="Tete_Humerus">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+		<MVPOSITION ID="Prims3D" Primitive="Tete_Capitulum">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+		<MVPOSITION ID="Prims3D" Primitive="AxeTHumTCap">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+	</MVGROUPE>
+	<MVGROUPE ID="Prims3D" Primitive="Coude_D">
+		<TRANSFORMATIONS Vue="0">
+			<MATRICE4>
+				1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+				0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+				0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+				0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+			</MATRICE4>
+		</TRANSFORMATIONS>
+		<MVPOSITION ID="Prims3D" Primitive="Tete_Humerus">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+		<MVPOSITION ID="Prims3D" Primitive="Tete_Capitulum">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+		<MVPOSITION ID="Prims3D" Primitive="AxeTHumTCap">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+	</MVGROUPE>
+	<MVGROUPE ID="Prims3D" Primitive="Hum_G">
+		<TRANSFORMATIONS Vue="0">
+			<MATRICE4>
+				1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+				0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+				0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+				0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+			</MATRICE4>
+		</TRANSFORMATIONS>
+		<MVPOSITION ID="Prims3D" Primitive="TeteHum">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+		<MVPOSITION ID="Prims3D" Primitive="EpiLateral">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+		<MVPOSITION ID="Prims3D" Primitive="EpiMedial">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+		<MVPOSITION ID="Prims3D" Primitive="DiaphyseHum">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+		<MVPOSITION ID="Prims3D" Primitive="AxeEpi">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+	</MVGROUPE>
+	<MVGROUPE ID="Prims3D" Primitive="Hum_D">
+		<TRANSFORMATIONS Vue="0">
+			<MATRICE4>
+				1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+				0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+				0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+				0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+			</MATRICE4>
+		</TRANSFORMATIONS>
+		<MVPOSITION ID="Prims3D" Primitive="TeteHum">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+		<MVPOSITION ID="Prims3D" Primitive="EpiLateral">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+		<MVPOSITION ID="Prims3D" Primitive="EpiMedial">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+		<MVPOSITION ID="Prims3D" Primitive="DiaphyseHum">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+		<MVPOSITION ID="Prims3D" Primitive="AxeEpi">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+	</MVGROUPE>
+	<MVGROUPE ID="Prims3D" Primitive="Scap_G">
+		<TRANSFORMATIONS Vue="0">
+			<MATRICE4>
+				1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+				0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+				0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+				0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+			</MATRICE4>
+		</TRANSFORMATIONS>
+		<MVPOSITION ID="Prims3D" Primitive="Pointe_Coracoide">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+		<MVPOSITION ID="Prims3D" Primitive="Scapula_Lat">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+	</MVGROUPE>
+	<MVGROUPE ID="Prims3D" Primitive="Scap_D">
+		<TRANSFORMATIONS Vue="0">
+			<MATRICE4>
+				1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+				0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+				0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+				0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+			</MATRICE4>
+		</TRANSFORMATIONS>
+		<MVPOSITION ID="Prims3D" Primitive="Pointe_Coracoide">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+		<MVPOSITION ID="Prims3D" Primitive="Scapula_Lat">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+	</MVGROUPE>
+	<MVGROUPE ID="Modele3DRecons" Primitive="Modele3DRecons">
+		<TRANSFORMATIONS Vue="0">
+			<MATRICE4>
+				1.0000000000   0.0000000000   0.0000000000   0.0000000000    
+				0.0000000000   1.0000000000   0.0000000000   0.0000000000    
+				0.0000000000   0.0000000000   1.0000000000   0.0000000000    
+				0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+			</MATRICE4>
+		</TRANSFORMATIONS>
+		<MVPOSITION ID="Modele3DRecons" Primitive="Vertebre_L1">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					0.9486284928   0.0125279243   -0.3161440078  -34.0701155267  
+					0.0069952062   0.9981410437   0.0605435714   -0.1893271939   
+					0.3163147952   -0.0596448494  0.9467773985   1548.9166028455 
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+		<MVPOSITION ID="Modele3DRecons" Primitive="Vertebre_L2">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					0.9658898076   0.0363542649   -0.2563888591  -24.4451619528  
+					-0.0150576485  0.9963060314   0.0845432372   -3.9507556290   
+					0.2585152740   -0.0777988378  0.9628692507   1516.3133277374 
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+		<MVPOSITION ID="Modele3DRecons" Primitive="Vertebre_L3">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					0.9936154166   0.0182400456   -0.1113359991  -13.5642062502  
+					-0.0172665898  0.9998038544   0.0097014269   -4.8759342328   
+					0.1114911155   -0.0077170944  0.9937354666   1481.9489151885 
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+		<MVPOSITION ID="Modele3DRecons" Primitive="Vertebre_L4">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					0.9960021622   -0.0841872950  0.0298695880   -17.9848309190  
+					0.0860749505   0.9939068602   -0.0688495178  -1.6817994697   
+					-0.0238913337  0.0711452919   0.9971797990   1447.7159401081 
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+		<MVPOSITION ID="Modele3DRecons" Primitive="Vertebre_L5">
+			<TRANSFORMATIONS Vue="0">
+				<MATRICE4>
+					0.9695277065   0.0055818489   0.2449180869   -17.1872086726  
+					0.0021212864   0.9995116336   -0.0311768269  -5.4488213412   
+					-0.2449725014  0.0307463389   0.9690423810   1410.4568030016 
+					0.0000000000   0.0000000000   0.0000000000   1.0000000000    
+				</MATRICE4>
+			</TRANSFORMATIONS>
+		</MVPOSITION>
+	</MVGROUPE>
+	<Labels Nombre="1">
+		<Nom No="0"/>
+	</Labels>
+</MULTIVUE>
